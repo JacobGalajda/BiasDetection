@@ -1,0 +1,41 @@
+X:1
+T:Title
+%%score 1 2 3 4
+L:1/8
+Q:1/4=100
+M:2/4
+K:C
+V:1 treble nm="violin 1"
+V:2 treble nm="violin 2"
+V:3 alto nm="viola"
+V:4 bass nm="cello"
+V:1
+!f!"^Molto vivace" e/ge/ c/G/c/e/ | .c !tenuto!G2 .e | d>.e .f.B | c3 z |!p! (e/g).e/ .c.c | %5
+ (d/f).d/ BB | (c/e).c/ .A.A | .B !tenuto!G2!mf! .g | e>.g .f.a | !tenuto!g3!f! .g | c'>.g .g.e | %11
+ (f>g) a2 | g>.c .d.e | !tenuto!d3!p! .f | e>.c .c.d | (c/B/A/B/) (c/d/).e/.f/ | .g !tenuto!g2 .B | %17
+ c3 z :|[M:3/4][Q:1/4=60]"^Andantino"!p! ve2 c2 e2 | d4 e2 | f4 f2 | e6 | e2 d2 c2 | (c2 B4) | %24
+ B2 (A2 c2) | B4 A2 | G2 B2 g2- | g2 (^f2 e2) | f4 f2 | e6 | e2 (d2 c2) | (c2 B4) | c2 (A2 B2) | %33
+ G6 | G2 g2 f2- | f2 (e2 d2) | e4 d2 | c6 |"^rit." c2 (d2 c2) | B6 | B6 | c6- | c4 z2 |] %43
+V:2
+!f! c/ec/ G/E/G/c/ | .G !tenuto!E2 .G | F>.G .A.F | E3 z |!p! (c/e).c/ .G.G | (B/d).B/ .G.G | %6
+ (A/c).A/ .F.F | .G !tenuto!D2!mf! .d | G>.c .A.c | !tenuto!B3!f! .d | g>.e .e.c | (c>e) f2 | %12
+ e>.G .B.c | !tenuto!B3!p! .d | c>.E .E.B | (G/E/F/G/) (G/B/).c/.d/ | .c !tenuto!e2 .G | G3 z :| %18
+[M:3/4]!p! vG2 E2 c2 | (c2 B2) _B2 | A4 _A2 | (G2 c2 _B2) | A2 B2 A2 | (A2 G4) | E2 (^F2 E2) | %25
+ E2 ^D4 | E2 (G2 B2) | ^c6 | (d2 c2) B2 | c6 | B4 (A2 | G2) (F2 E2) | E4 (^D2 | E2) (E2 F2) | %34
+ E4 (^G2 | A2) (B4 | B2) (A4- | A2 ^G2 =G2) | (^F6 | F2) (E2 D2) | (F2 E2) D2 | F6 | E4 z2 |] %43
+V:3
+!f! E/GE/ C/G,/C/E/ | .C !tenuto!G,2 .C | A,>.G, .F,.G, | G,3 z |!p! G>G .E.E | F>F .F.F | %6
+ E>E .D.D | .D !tenuto!B,2!mf! .B, | C>.C .C.F | !tenuto!D3!f! .B | c>.G .G.G | (F>c) c2 | %12
+ c>.E .G.G | !tenuto!G3!p! .G | G>.C .C.G | C2 .G/.F/.E/.D/ | .E !tenuto!C2 .D | E3 z :| %18
+[M:3/4]!p! vC2 G,2 G2 | (G3 F) E2 | F4 B,2 | (C4 G2) | ^F2 =F2 E2 | (^D2 E4) | B,2 (^D2 A,2) | %25
+ G,2 ^F,4 | B,2 (E2 D2) | E6 | (A2 F2) G2 | G6 | G2 (F2 E2) | D6 | C4 B,2 | B,6 | C2 E4 | D4 (F2 | %36
+ E6-) | E6 | D2 (B,2 A,2) | (^G,6 | G,6) | G,6- | G,4 z2 |] %43
+V:4
+!f! C/EC/ G,/E,/G,/C/ | .E, !tenuto!C,2 .C, | .F,.D, .B,,.G,, | .C,.G,, .C,, z |!p! C>C .C.C | %5
+ B,>D .G,.G, | A,>C .C.C | .G, !tenuto!G,,2!mf! .G, | C>.E, .F,.A, | !tenuto!G,3!f! .F | %10
+ E>.C .C.C | (A,>C) F2 | E>.C .D.E | !tenuto!G,3!p! .G, | C>.A, .A,.G, | E,2 .G,/.F,/.E,/.D,/ | %16
+ .C, !tenuto!G,2 .G,, | C,3 z :|[M:3/4]!p! vC,2 E,2 C,2 | G,,4 C,2 | F,2 D,2 G,2 | C,6 | %22
+ D,2 G,2 A,2 | (^F,2 E,4) | G,2 (^F,2 A,,2) | B,,6 | E,6 | A,6 | D4 G,2 | C6 | G,4 A,2 | %31
+ D,2 (G,2 ^G,2) | A,2 (^F,2 B,2) | E,4 D,2 | C,4 D,2 | E,6 | ^G,2 (C2 B,2) | A,6 | (D,6 | %39
+ D,2) E,4 | (D,2 G,,4) | C,6- | C,4 z2 |] %43
+

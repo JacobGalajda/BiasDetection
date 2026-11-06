@@ -1,0 +1,47 @@
+X:1
+T:Title
+%%score 1 2 3 4
+L:1/8
+Q:1/4=100
+M:2/3
+K:C
+V:1 treble nm="violin 1"
+V:2 treble nm="violin 2"
+V:3 alto nm="viola"
+V:4 bass nm="cello"
+V:1
+ z3 e/d/ |: .c.G c/d/e/f/ | g/a/g/^f/ g=f/e/ | .d.G d/e/f/g/ | a/b/a/^g/ a=g/f/ | .e.c e/f/g/a/ | %6
+ b/c'/b/a/ g/f/e/d/ | c/c'/b/a/ g/f/e/d/ | e/c/d/B/ .ce/d/ :: c/d/e/f/ g/e/d/c/ | %10
+ d/e/f/d/ e/c/A/G/ | ^F/A/d/^f/ g/d/B/G/ | ^F/A/d/^f/ g/d/B/d/ | c/d/e/f/ g/e/d/c/ | %14
+ f/e/d/c/ B/A/G/F/ | E/c/a/f/ e/c/d/B/ | c/G/E/G/ .Ce/d/ :: .c.G c/d/e/f/ | g/a/g/^f/ g=f/e/ | %19
+ .d.G d/e/f/g/ | a/b/a/^g/ a=g/f/ | .e.c e/f/g/a/ | b/c'/b/a/ g/f/e/d/ | c/c'/b/a/ g/f/e/d/ | %24
+ e/c/d/B/ .ce/d/ :: c/d/e/f/ g/e/d/c/ | d/e/f/d/ e/c/A/G/ | ^F/A/d/^f/ g/d/B/G/ | %28
+ ^F/A/d/^f/ g/d/B/d/ | c/d/e/f/ g/e/d/c/ | f/e/d/c/ B/A/G/F/ | E/c/a/f/ e/c/d/B/ |1 %32
+ c/G/E/G/ .Ce/d/ :|2 c/G/E/G/ C/G/D/G/ || E/G/D/G/ E/G/D/G/ | C/G/E/G/ C/G/D/G/ | %36
+ E/G/D/G/ E/G/D/G/ | .[Ec]2 z2 | .[Ec]2 z2 |] %39
+V:2
+ z4 |:"^pizz." [G,Ec]2 z2 | z B/A/ GA/G/ | [DB] z z2 | z d/B/ cB/A/ | [CGe] z z2 | z2 z B | %7
+ c/a/g/f/ e/d/c/B/ | c/E/F/D/ EG/F/ :: E/F/G/B/ c/G/F/E/ | F/G/A/B/ c/E/C/E/ | D/^F/A/d/ d/B/G/D/ | %12
+ D/^F/A/d/ d/B/G/B/ | E/G/c/d/ e/c/G/E/ | A/G/F/E/ D/C/B,/D/ | C/E/F/A/ G/E/F/D/ | EG/F/ .EE/F/ :: %17
+ [G,Ec]2 z2 | z B/A/ GA/G/ | [DB] z z2 | z d/B/ cB/A/ | [CGe] z z2 | z2 z B | c/a/g/f/ e/d/c/B/ | %24
+ c/E/F/D/ EG/F/ :: E/F/G/B/ c/G/F/E/ | F/G/A/B/ c/E/C/E/ | D/^F/A/d/ d/B/G/D/ | %28
+ D/^F/A/d/ d/B/G/B/ | E/G/c/d/ e/c/G/E/ | A/G/F/E/ D/C/B,/D/ | C/E/F/A/ G/E/F/D/ |1 %32
+ EG/F/ .EE/F/ :|2 EG/F/ EF || EF EF | EE/G/ EF | EF EF | .[G,E]2 z2 | .[G,Ec]2 z2 |] %39
+V:3
+ z4 |:"^pizz." [E,C]2 z2 | z4 | [D,B,G]2 z2 | z C/B,/ C z | [C,G,E] z z2 | z4 | CD GG, | %8
+ CG, C, z :: [C,G,E]2 z2 | [F,A,]2 z2 | [D,A,^F]2 [B,G]2 | [D,A,^F]2 [B,G]2 | [C,G,E]2 z2 | z4 | %15
+ E,F, G,G, | CG,/F,/ .E, z :: z/ G,/C/E/ G/E/C/G,/ | z/ B,/D/G/ B/G/D/B,/ | z/ B,/D/G/ B/G/D/B,/ | %20
+ z/ C/E/G/ c z | z/ C/E/G/ c/G/E/C/ | G/A/B/c/ d z | CD GG, | CG, C, z :: [C,G,E]2 z2 | %26
+ [F,A,]2 z2 | [D,A,^F]2 [B,G]2 | [D,A,^F]2 [B,G]2 | [C,G,E]2 z2 | z4 | E,F, G,G, |1 %32
+ CG,/F,/ .E, z :|2 CG,/F,/ E,G, || CG, E,G, | CG,/F,/ E,G, | CG, E,G, | .[C,G,]2 z2 | %38
+ .[C,G,E]2 z2 |] %39
+V:4
+ z4 |:"^pizz." [C,,G,,E,C]2 z2 | z4 | [G,,D,B,]2 z2 | z4 | [C,,G,,E,C] z z2 | z4 | E,F, G,G,, | %8
+ C,G,, C,, z :: [C,,G,,E,C]2 z2 | [F,,C,A,]2 z2 | [D,,A,,^F,]2 [G,,D,B,]2 | %12
+ [D,,A,,^F,]2 [G,,D,B,]2 | [C,,G,,E,C]2 z2 | z4 | E,,F,, G,,G,, | C,G,,/F,,/ .E,, z :: %17
+ z/ G,,/C,/E,/ G,/E,/C,/G,,/ | z/ B,,/D,/G,/ B,/G,/D,/B,,/ | z/ B,,/D,/G,/ B,/G,/D,/B,,/ | %20
+ z/ C,/E,/G,/ C z | z/ C,/E,/G,/ C/G,/E,/C,/ | G,/A,/B,/C/ D z | E,F, G,G,, | C,G,, C,, z :: %25
+ [C,,G,,E,C]2 z2 | [F,,C,A,]2 z2 | [D,,A,,^F,]2 [G,,D,B,]2 | [D,,A,,^F,]2 [G,,D,B,]2 | %29
+ [C,,G,,E,C]2 z2 | z4 | E,,F,, G,,G,, |1 C,G,,/F,,/ .E,, z :|2 C,G,,/F,,/ E,,G,, || C,G,, E,,G,, | %35
+ C,G,,/F,,/ E,,G,, | C,G,, E,,G,, | .[C,,G,,E,C]2 z2 | .[C,,G,,E,C]2 z2 |] %39
+

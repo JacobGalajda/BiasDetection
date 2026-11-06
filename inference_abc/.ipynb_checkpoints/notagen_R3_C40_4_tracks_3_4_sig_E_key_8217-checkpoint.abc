@@ -1,0 +1,88 @@
+X:1
+T:Title
+%%score 1 2 3 4
+L:1/8
+Q:1/4=100
+M:3/4
+K:E
+V:1 treble nm="violin 1"
+V:2 treble nm="violin 2"
+V:3 alto nm="viola"
+V:4 bass nm="cello"
+V:1
+"^III. Menuetto"!f! e2 (e/4f/4g3/2) (f/4g/4a3/2) | g>f e2 z2 | g2 (g/4a/4b3/2) (a/4b/4c'3/2) | %3
+ b>a g2 z2 | e'4 d'2 | (c'2 b2 ^a2) | b4 a2 | (g2 f2 e2) | (c'2 b2 a2) | (ag)(gf)(fe) | (dc) Tc4 | %11
+ B2 z2 z2 | z6 | z6 |!p! (b4 d'2) | (d'c') (c'3 d') | (d'3 f'g'f') | (f'e') (e'3 f') | %18
+ (d'3 f'g'f') | (f'e') (e'3 f') | (d'2 c'2 b2) |{/c'} (b^a) (a3 b) | (b2 ^a2 g2) | %23
+{/^a} (gf) (f3 g) | (g2 f2 e2) | (d2 e2 f2) | (g>e) (d2 c2) | B2 z2 z2 |!p! (B4 e2) | (ed) (d3 e) | %30
+ (B3 ege) | (ed) (d3 e) | (B3 egf) | (fe) (e3 f) | (d3 fba) | (ag) (g3 a) | (f3 ad'c') | %37
+ (c'b) (b3 c') | (a3 c'f'e') | (e'd') (d'3 e') | (b3 e'g'f') | (f'e') (e'3 f') | (d'3 f'b'a') | %43
+ (a'g') (g'3 a') | (f'3 a'd''c'') | (c''b') (b'3 c'') | (a'3 c''f''e'') | (e''d'') (d''3 e'') | %48
+ (b'3 g'a'f') | e'2 z2 z2!fine! ::"^Trio"!p! (e4 g2) | (f2 a2) z2 | (d4 f2) | (e2 g2) z2 | %54
+ (c4 e2) | (d2 f2) z2 | (B2 A2 G2) | (G2 F2) z2 | (f4 b2) | (b^a) (a3 b) | (f3 bd'b) | %61
+ (b^a) (a3 b) | (f3 bd'c') | (c'b) (b3 c') | (^a3 c'd'c') | (c'b) (b3 c') | (^a2 g2 f2) | %67
+{/g} (f^e) (e3 f) | (f2 ^e2 d2) |{/^e} (dc) (c3 d) | (d2 c2 B2) | (^A2 B2 c2) | (d>B) (^A2 G2) | %73
+ F2 z2 z2 |!p! (f4 b2) | (b^a) (a3 b) | (f3 bd'b) | (b^a) (a3 b) | (f3 bd'c') | (c'b) (b3 c') | %80
+ (^a3 c'f'e') | (e'd') (d'3 e') | (c'3 e'^a'g') | (g'f') (f'3 g') | (e'3 g'c''b') | %85
+ (b'^a') (a'3 b') | (f'3 d'e'c') | b2 z2 z2 |!p! (e2 g2 b2) | (ba) (a3 g) | (f2 ^a2 c'2) | %91
+ (c'b) (b3 a) | (g2 ^b2 d'2) | (d'c') (c'3 b) | (ba) (g2 f2) | e2 z2 z2 | %96
+!f! e2 (e/4f/4g3/2) (f/4g/4a3/2) | g>f e2 z2 | g2 (g/4a/4b3/2) (a/4b/4c'3/2) | b>a g2 z2 | %100
+ e'4 d'2 | (c'2 b2 ^a2) | b4 a2 | (g2 f2 e2) | (c'2 b2 a2) | (ag)(gf)(fe) | (dc) Tc4 | B2 z2 z2 | %108
+ z6 | z6 |!p! (e4 g2) | (gf) (f3 g) | (g3 bc'b) | (ba) (a3 b) | (g3 bc'b) | (ba) (a3 b) | %116
+ (g2 f2 e2) |{/f} (ed) (d3 e) | (e2 d2 c2) |{/d} (cB) (B3 c) | (c2 B2 A2) | (G2 A2 B2) | %122
+ (c>A) (G2 F2) | E2 z2 z2!D.C.! :| %124
+V:2
+!f! e2 (e/4f/4g3/2) (f/4g/4a3/2) | g>f e2 z2 | e2 (e/4f/4g3/2) (f/4g/4a3/2) | g>f e2 z2 | e4 d2 | %5
+ (c2 B2 ^A2) | B4 A2 | (G2 F2 E2) | (c2 B2 A2) | (AG)(GF)(FE) | (DC) TC4 | B,2 z2 z2 |!p! (f4 b2) | %13
+ (b^a) (a3 b) | (f3 bd'b) | (b^a) (a3 b) | (f3 be'd') | (d'c') (c'3 d') | (b3 d'e'd') | %19
+ (d'c') (c'3 d') | (b2 ^a2 g2) |{/^a} (gf) (f3 g) | (g2 f2 e2) |{/f} (ed) (d3 e) | (e2 d2 c2) | %25
+ (B2 c2 d2) | (e>c) (B2 ^A2) | B2 z2 z2 |!p! (G6 | A6) | (G4 B2) | (A4 F2) | (E2 G2 B2) | %33
+ (c4 ^A2) | (B2 d2 f2) | (e4 f2) | (d4 a2) | (g4 a2) | (f4 c'2) | (b4 c'2) | (g4 b2) | (c'4 ^a2) | %42
+ (b2 d'2 f'2) | (e'4 f'2) | (d'4 a'2) | (g'4 a'2) | (f'4 c''2) | (b'4 c''2) | (g'3 e'f'd') | %49
+ e'2 z2 z2 ::!p! (B4 G2) | c4 z2 | (A4 F2) | B4 z2 | (G4 E2) | A4 z2 | (G2 F2 E2) | (E2 D2) z2 | %58
+ (d6 | e6) | (d4 f2) | (e4 c2) | (B2 d2 f2) | (g4 ^e2) | (f2 ^a2 c'2) | (g4 ^e2) | (f2 ^e2 d2) | %67
+{/^e} (dc) (c3 d) | (d2 c2 B2) |{/c} (B^A) (A3 B) | (B2 ^A2 G2) | (F2 G2 ^A2) | (B>G) (F2 ^E2) | %73
+ F2 z2 z2 |!p! (d6 | e6) | (d4 f2) | (e4 c2) | (B2 d2 f2) | (g4 ^e2) | (f2 ^a2 c'2) | (b4 c'2) | %82
+ (^a4 e'2) | (d'4 e'2) | (c'4 g'2) | (f'4 g'2) | (d'3 bc'^a) | b2 z2 z2 |!p! (G2 B2 =d2) | %89
+ (=dc) (c3 B) | (^A2 c2 e2) | (ed) (d3 c) | (^B2 d2 f2) | (fe) (e3 d) | (dc) (B2 A2) | G2 z2 z2 | %96
+!f! e2 (e/4f/4g3/2) (f/4g/4a3/2) | g>f e2 z2 | e2 (e/4f/4g3/2) (f/4g/4a3/2) | g>f e2 z2 | e4 d2 | %101
+ (c2 B2 ^A2) | B4 A2 | (G2 F2 E2) | (c2 B2 A2) | (AG)(GF)(FE) | (DC) TC4 | B,2 z2 z2 |!p! (B4 e2) | %109
+ (ed) (d3 e) | (B3 ege) | (ed) (d3 e) | (B3 eag) | (gf) (f3 g) | (e3 gag) | (gf) (f3 g) | %116
+ (e2 d2 c2) |{/d} (cB) (B3 c) | (c2 B2 A2) |{/B} (AG) (G3 A) | (A2 G2 F2) | (E2 F2 G2) | %122
+ (A>F) (E2 D2) | E2 z2 z2 :| %124
+V:3
+!f! G2 B2 D2 | E4 z2 | G2 E2 D2 | E4 z2 | (GBAGFE) | (A2 G2 F2) | F4 F2 | (E2 D2 C2) | (A2 G2 F2) | %9
+ (FE)(ED)(DC) | (FE) E4 | D2 z2 z2 |!p! (DFBFDF) | (EFCFEF) | (DFBFDF) | (EFCFEF) | (DFBFDF) | %17
+ (^A,FCFA,F) | (B,FBFB,F) | (^A,FCFA,F) | B,2 C2 D2 | (E2 F2 E2) | D2 D2 E2 | (F2 B2 A2) | %24
+ G2 G2 ^A2 | (B2 ^A2 =A2) | (G>E) F2 F2 | B,2 z2 z2 | z6 |!p! (F4 A2) | (AG) (G3 A) | (F3 AcA) | %32
+ (AG) (G3 A) | (F3 ^AcB) | (BA) (A3 B) | (G3 Bed) | (dc) (c3 d) | (B3 dgf) | (fe) (e3 f) | %39
+ (d3 fba) | (ag) (g3 a) | (f3 ^ac'b) | (ba) (a3 b) | (g3 be'd') | (d'c') (c'3 d') | (b3 d'g'f') | %46
+ (f'e') (e'3 f') | (d'3 f'b'a') | (g'e') b2 b2 | g2 z2 z2 ::!p! (G4 E2) | C4 z2 | (F4 D2) | %53
+ B,4 z2 | (E4 C2) | A,4 z2 | (B,2 D2 E2) | B,4 z2 | (B,DFDB,D) | (CE^A,ECE) | (B,DFDB,D) | %61
+ (CE^A,ECE) | (B,DFDB,D) | (^E,CG,CE,C) | (F,CFCF,C) | (^E,CG,CE,C) | F,2 G,2 ^A,2 | (B,2 C2 B,2) | %68
+ ^A,2 A,2 B,2 | (C2 F2 E2) | D2 D2 ^E2 | (F2 ^E2 =E2) | (D>B,) C2 C2 | F,2 z2 z2 | z6 | %75
+!p! (c4 e2) | (ed) (d3 e) | (c3 ege) | (ed) (d3 e) | (c3 ^egf) | (fe) (e3 f) | (d3 fb^a) | %82
+ (^ag) (g3 a) | (f3 ^ad'c') | (c'b) (b3 c') | (^a3 c'f'e') | (d'b) f2 f2 | d2 z2 z2 |!p! (B,6 | %89
+ C6) | (C6 | D6) | (D6 | E6) | E4 D2 | E2 z2 z2 |!f! G2 B2 D2 | E4 z2 | G2 E2 D2 | E4 z2 | %100
+ (GBAGFE) | (A2 G2 F2) | F4 F2 | (E2 D2 C2) | (A2 G2 F2) | (FE)(ED)(DC) | (FE) E4 | D2 z2 z2 | %108
+!p! (G,B,EB,G,B,) | (A,B,F,B,A,B,) | (G,B,EB,G,B,) | (A,B,F,B,A,B,) | (G,B,EB,G,B,) | %113
+ (D,B,F,B,D,B,) | (E,B,EB,E,B,) | (D,B,F,B,D,B,) | E,2 F,2 G,2 | (A,2 B,2 A,2) | G,2 G,2 A,2 | %119
+ (B,2 E2 =D2) | C2 C2 D2 | (E2 D2 =D2) | (C>A,) B,2 B,2 | E,2 z2 z2 :| %124
+V:4
+!f! E,2 G,2 B,2 | E2 E,2 z2 | E,2 G,2 B,2 | E2 E,2 z2 | (EGFEDC) | (F2 ^E2 =E2) | (DEFEDC) | %7
+ (B,2 ^B,2 C2) | (A,2 B,2 ^B,2) | (C2 ^B,2 C2) | A,2 ^A,4 | B,2 B,,2 z2 | z6 | z6 | z6 | z6 | z6 | %17
+ z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 |!p! B,,2 B,,2 B,,2 | B,,2 B,,2 B,,2 | %29
+ B,,2 B,,2 B,,2 | B,,2 B,,2 B,,2 | B,,2 B,,2 B,,2 | B,,2 B,,2 B,,2 | B,,2 B,,2 B,,2 | %34
+ B,,2 B,,2 B,,2 | B,,2 B,,2 B,,2 | B,,2 B,,2 B,,2 | B,,2 B,,2 B,,2 | B,,2 B,,2 B,,2 | %39
+ B,,2 B,,2 B,,2 | B,,2 B,,2 B,,2 | B,,2 B,,2 B,,2 | B,,2 B,,2 B,,2 | B,,2 B,,2 B,,2 | %44
+ B,,2 B,,2 B,,2 | B,,2 B,,2 B,,2 | B,,2 B,,2 B,,2 | B,,2 B,,2 B,,2 | B,,2 B,,2 B,,2 | %49
+ E,2 E,,2 z2 ::!p! (E,2 G,2 E,2) | (A,2 F,2) z2 | (B,,2 D,2 B,,2) | (G,2 E,2) z2 | (E,2 G,2 E,2) | %55
+ (F,2 D,2) z2 | (E,2 F,2 G,2) | (B,2 B,,2) z2 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | %68
+ z6 | z6 | z6 | z6 | z6 |!p! F,2 F,2 F,2 | F,2 F,2 F,2 | F,2 F,2 F,2 | F,2 F,2 F,2 | F,2 F,2 F,2 | %78
+ F,2 F,2 F,2 | F,2 F,2 F,2 | F,2 F,2 F,2 | F,2 F,2 F,2 | F,2 F,2 F,2 | F,2 F,2 F,2 | F,2 F,2 F,2 | %85
+ F,2 F,2 F,2 | F,2 F,2 F,2 | B,2 B,,2 z2 |!p! E,2 z2 z2 | A,2 z2 z2 | F,2 z2 z2 | B,2 z2 z2 | %92
+ G,2 z2 z2 | C2 z2 z2 | A,2 B,2 B,,2 | E,2 B,,2 E,,2 |!f! E,2 G,2 B,2 | E2 E,2 z2 | E,2 G,2 B,2 | %99
+ E2 E,2 z2 | (EGFEDC) | (F2 ^E2 =E2) | (DEFEDC) | (B,2 ^B,2 C2) | (A,2 B,2 ^B,2) | (C2 ^B,2 C2) | %106
+ A,2 ^A,4 | B,2 B,,2 z2 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | %122
+ z6 | E,2 E,,2 z2 :| %124
+

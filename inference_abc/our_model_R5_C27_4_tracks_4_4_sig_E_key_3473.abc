@@ -1,0 +1,46 @@
+X:1
+T:Title
+%%score 1 2 3 4
+L:1/8
+Q:1/4=100
+M:4/4
+K:E
+V:1 treble nm="violin 1"
+V:2 treble nm="violin 2"
+V:3 alto nm="viola"
+V:4 bass nm="cello"
+V:1
+"^The suite six softly (100)"!f!"^In merciful time" B2 G2 B2 G2 | e4 B4 | F2 c2 B2 EA | G4 F4 | %4
+ B2 G2 B2 G2 | e4 B4 | ce A2 GB E2 | G4 F4 | z2!f! GE A2 F2 | z2 ^AF c2 B2 | z2 ^BG d2 c2 | %11
+ z2 ec d4 |!f! B2 G2 B2 G2 | e4 B4 | F2 c2 B2 EA | G4 F4 | B2 G2 B2 G2 | e4 B4 | ce A2 GB E2 | %19
+ G4 F4 | z2!mf! GE A2 F2 | z2 ^AF c2 B2 | z2 ^BG d2 c2 | z2 ec d4 |!f! B2 G2 B2 G2 | e4 B4 | %26
+ F2 c2 B2 EA | G4 F4 | B2 G2 B2 G2 | e4 B4 | ce A2 GB E2 | G4 F4 |!mp! E8 | F4 D4 | d4 c4 | c4 f4 | %36
+!f! B2 G2 B2 G2 | e4 B4 | F2 c2 B2 EA | G4 F4 | B2 G2 B2 G2 | e4 B4 | ce A2 GB E2 | G4 F4 | %44
+ z2 GE A2 F2 | z2 ^AF c2 B2 | z2 ^BG d2 c2 | z2 ec d4 |!f! B2 G2 B2 G2 | e4 B4 | F2 c2 B2 EA | %51
+ G4 F4 | B2 G2 B2 G2 | e4 B4 |[Q:1/4=96]"^rit." ce A2[Q:1/4=92] GB[Q:1/4=88] E2 | %55
+[Q:1/4=84] G4 F4 |] %56
+V:2
+!f! G2 E2 G2 E2 | A4 F4 | E4 C2 E2 | D8 | E2 F2 G2 E2 | A4 F4 | A2 F2 E2 C2 | E4 D4 |!mf! B,4 C4 | %9
+ C4 F4 | G4 G4 | A4 B4 |!f! G2 E2 G2 E2 | A4 F4 | E4 C2 E2 | D8 | E2 F2 G2 E2 | A4 F4 | %18
+ A2 F2 E2 C2 | E4 D4 |!mp! B,4 C4 | C4 F4 | G4 G4 | A4 B4 |!mf! G2 E2 G2 E2 | A4 F4 | E4 C2 E2 | %27
+ D8 | E2 F2 G2 E2 | A4 F4 | A2 F2 E2 C2 | E4 D4 |!mp! B,4 A,4 | C4 B,4 | G8 | A4 B4 | %36
+!mf! G2 E2 G2 E2 | A4 F4 | E4 C2 E2 | D8 | E2 F2 G2 E2 | A4 F4 | A2 F2 E2 C2 | E4 D4 | B,4 C4 | %45
+ C4 F4 | G4 G4 | A4 B4 |!mf! G2 E2 G2 E2 | A4 F4 | E4 C2 E2 | D8 | E2 F2 G2 E2 | A4 F4 | %54
+ A2 F2 E2 C2 | E4 D4 |] %56
+V:3
+!f! E,4 G,4 | C4 D4 | A,8 | B,8 | G,2 A,2 B,2 C2 | =D4 ^D4 | E4 B,2 A,2 | B,8 |!mf! E,8 | F,4 D,4 | %10
+ D4 C4 | C4 F4 |!f! E,4 G,4 | C4 D4 | A,8 | B,8 | G,2 A,2 B,2 C2 | =D4 ^D4 | E4 B,2 A,2 | B,8 | %20
+!mp! E,8 | F,4 D,4 | D4 C4 | C4 F4 |!mf! E,4 G,4 | C4 D4 | A,8 | B,8 | G,2 A,2 B,2 C2 | =D4 ^D4 | %30
+ E4 B,2 A,2 | B,8 |!f! z2 G,E, A,2 F,2 | z2 ^A,F, C2 B,2 | z2 ^B,G, D2 C2 | z2 EC D4 | %36
+!mf! E,4 G,4 | C4 D4 | A,8 | B,8 | G,2 A,2 B,2 C2 | =D4 ^D4 | E4 B,2 A,2 | B,8 | E,8 | F,4 D,4 | %46
+ D4 C4 | C4 F4 |!mf! E,4 G,4 | C4 D4 | A,8 | B,8 | G,2 A,2 B,2 C2 | =D4 ^D4 | E4 B,2 A,2 | B,8 |] %56
+V:4
+!f! E,,8 | F,,4 G,,4 | A,,8 | B,,8 | E,,2 F,,2 G,,2 A,,2 | F,,4 G,,4 | A,,2 F,,2 G,,2 A,,2 | B,,8 | %8
+!mf! E,,8 | F,,4 B,,4 | G,,4 C,4 | A,,4 B,,4 |!f! E,,8 | F,,4 G,,4 | A,,8 | B,,8 | %16
+ E,,2 F,,2 G,,2 A,,2 | F,,4 G,,4 | A,,2 F,,2 G,,2 A,,2 | B,,8 |!mp! E,,8 | F,,4 B,,4 | G,,4 C,4 | %23
+ A,,4 B,,4 |!mf! E,,8 | F,,4 G,,4 | A,,8 | B,,8 | E,,2 F,,2 G,,2 A,,2 | F,,4 G,,4 | %30
+ A,,2 F,,2 G,,2 A,,2 | B,,8 |!mp! E,,8 | F,,4 B,,4 | G,,4 C,4 | A,,4 B,,4 |!mf! E,,8 | F,,4 G,,4 | %38
+ A,,8 | B,,8 | E,,2 F,,2 G,,2 A,,2 | F,,4 G,,4 | A,,2 F,,2 G,,2 A,,2 | B,,8 | E,,8 | F,,4 B,,4 | %46
+ G,,4 C,4 | A,,4 B,,4 |!mf! E,,8 | F,,4 G,,4 | A,,8 | B,,8 | E,,2 F,,2 G,,2 A,,2 | F,,4 G,,4 | %54
+ A,,2 F,,2 G,,2 A,,2 | B,,8 |] %56
+

@@ -1,0 +1,42 @@
+X:1
+T:Title
+%%score 1 2 3 4
+L:1/8
+Q:1/4=100
+M:4/4
+K:A
+V:1 treble nm="violin 1"
+V:2 treble nm="violin 2"
+V:3 alto nm="viola"
+V:4 bass nm="cello"
+V:1
+!mf! .a2 .e2 f/g/.a .e.a | .b.e.c'.a (g/a/.b) .e2 | (e/f/=g) .g2 .g2 .f2 | (f/g/a) .a2 .a2 .g2 | %4
+ .a2 .e2 (f/g/.a) .e.a | .b.e.c'.a (g/a/.b) .e2 | (a/b/c') .c'2 .c'2 .b2 | .a.f.b.B e4!fine! :: %8
+[K:D]!f! (e2 g2) (fefg) | (fgfe) (dc d2) | (A2 =c2) (BABc) | (B=cBA) (GF G2) | (d2 =f2) (edef) | %13
+ (e=fed) (cB c2) | (e2 g2) (fefg) | (fgfe) (dc d2) :|[K:A]!mf! .a2 .e2 (f/g/.a) .e.a | %17
+ .b.e.c'.a (g/a/.b) .e2 | (e/f/=g) .g2 .g2 .f2 | (f/g/a) .a2 .a2 .g2 | .a2 .e2 (f/g/.a) .e.a | %21
+ .b.e.c'.a (g/a/.b) .e2 | .e'2 .e'2 .e'2 .d'2 | .c'.b.c'.^d .e2 z2!fine! ||!mp! .e2 .e2 .e2 .d2 | %25
+ .c.B.c.^D .E2 z2!D.C.! |] %26
+V:2
+!mf! .e2 .e2 .f2 .e2 | .e2 .e2 .e2 z2 | .e2 .e2 .d2 .d2 | .^d2 .d2 .e2 .e2 | .e2 .e2 .f2 .e2 | %5
+ .e2 .e2 .e2 z2 | .e2 .e2 .^d2 .e2 | .c2 .^d2 e4 ::[K:D]!f! .A2 .A2 .A2 z2 | .A2 .A2 .A2 z2 | %10
+ .D2 .D2 .D2 z2 | .D2 .D2 .D2 z2 | .G2 .G2 .G2 z2 | .^G2 .G2 .A2 z2 | .A2 .A2 .A2 z2 | %15
+ .A2 .A2 .A2 z2 :|[K:A]!mf! .e2 .e2 .f2 .e2 | .e2 .e2 .e2 z2 | .e2 .e2 .d2 .d2 | .^d2 .d2 .e2 .e2 | %20
+ .e2 .e2 .f2 .e2 | .e2 .e2 .e2 z2 | .g2 .a2 .f2 .e2 | .e2 .A2 .G2 z2 ||!mp! .G2 .A2 .F2 .E2 | %25
+ .E2 .A,2 .G,2 z2 |] %26
+V:3
+!mf! .c2 .A2 .A2 .A2 | .B2 .c2 .B2 z2 | .A2 .A2 .A2 .A2 | .B2 .B2 .B2 .B2 | .c2 .A2 .A2 .A2 | %5
+ .B2 .c2 .B2 z2 | .A2 .A2 .A2 .B2 | .c2 .F2 E4 ::[K:D]!f! .E2 .E2 .D2 z2 | .F2 .G2 .F2 z2 | %10
+ .A,2 .A,2 .G,2 z2 | .B,2 .=C2 .B,2 z2 | .D2 .D2 .=C2 z2 | .E2 .E2 .E2 z2 | .E2 .E2 .D2 z2 | %15
+ .F2 .G2 .F2 z2 :|[K:A]!mf! .c2 .A2 .A2 .A2 | .B2 .c2 .B2 z2 | .A2 .A2 .A2 .A2 | .B2 .B2 .B2 .B2 | %20
+ .c2 .A2 .A2 .A2 | .B2 .c2 .B2 z2 | .B2 .A2 .A2 .G2 | .E2 .F2 .B,2 z2 ||!mp! .B,2 .A,2 .A,2 .G,2 | %25
+ .E,2 .F,2 .B,,2 z2 |] %26
+V:4
+!mf! .A,2 .C2 .D2 .C2 | .G,2 .A,2 .E,2 z2 | .C2 .C2 .D2 .D2 | .B,2 .B,2 .E2 .E2 | %4
+ .A,2 .C2 .D2 .C2 | .G,2 .A,2 .E,2 z2 | .A,2 .=G,2 .F,2 .^G,2 | .A,2 .B,2 E,4 :: %8
+[K:D]!f! .C,2 .C,2 .D,2 z2 | .D,2 .A,,2 .D,2 z2 | .F,2 .F,2 .G,2 z2 | .G,2 .D,2 .G,2 z2 | %12
+ .B,2 .B,2 .=C2 z2 | .E,2 .E,2 .A,2 z2 | .C,2 .C,2 .D,2 z2 | .D,2 .A,,2 .D,2 z2 :| %16
+[K:A]!mf! .A,2 .C2 .D2 .C2 | .G,2 .A,2 .E,2 z2 | .C2 .C2 .D2 .D2 | .B,2 .B,2 .E2 .E2 | %20
+ .A,2 .C2 .D2 .C2 | .G,2 .A,2 .E,2 z2 | .E,2 .C,2 .D,2 .E,2 | .A,2 .B,2 .E,2 z2 || %24
+!mp! .E,2 .C,2 .D,2 .E,2 | .A,,2 .B,,2 .E,,2 z2 |] %26
+

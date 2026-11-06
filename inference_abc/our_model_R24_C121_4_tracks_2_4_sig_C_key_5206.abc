@@ -1,0 +1,58 @@
+X:1
+T:Title
+%%score 1 2 3 4
+L:1/8
+Q:1/4=100
+M:2/4
+K:C
+V:1 treble nm="treble"
+V:2 treble nm="treble"
+V:3 alto nm="bass"
+V:4 bass nm="bass"
+V:1
+"^Livigty""^Midnight hard thoughts" z4 | z4 | z e ef | !tenuto!g2 (f/e/d) | e4- | e4 | z4 | z4 | %8
+ z4 | z4 | z e ef | (!tenuto!g2 f/e/d) | e4- | e4 | e3 d | !tenuto!c2 z2 | f3 e | d2 z2 | g3 g | %19
+ (a/b/c') ba | g2 g2 | g4 |!f! z e ef | !tenuto!g2 (f/e/d) | e2 z2 | z c cd | !tenuto!e2 (d/c/B) | %27
+ c2 z2 | z c cd | !tenuto!e2 (d/c/B) | c2 z2 | e3 d | c2 z2 | f3 e | d2 z2 | g3 g | (a/b/c') ba | %37
+ g2 g2 | g4 | z e ef | !tenuto!g2 (f/e/d) | e2 z2 | z c cd | !tenuto!e2 (d/c/B) | c2 z2 | z c cd | %46
+ !tenuto!e2 (d/c/B) | c2 z2 | e3 d | c2 z2 | f3 e | d2 z2 | g3 g | (a/b/c') ba | g2 g2 | g4 | z4 | %57
+ z4 | z g ga | !tenuto!_b2 (a/g/f) | g4- | g4 | z4 | z4 | z e ef | !tenuto!g2 (f/e/d) | e4- | e4 | %68
+ e3 d | c2 z2 | f3 e | d2 z2 | g3 g | (a/b/c') ba | g2 g2 | g4 | z e ef | !tenuto!g2 (f/e/d) | %78
+ e2 z2 | z c cd | !tenuto!e2 (d/c/B) | c2 z2 | z c cd | !tenuto!e2 (d/c/B) | c2 z2 | e3 d | c2 z2 | %87
+ f3 e | d2 z2 | g3 g | (a/b/c') ba | g2 g2 | g4 | z2[Q:1/4=120] z g/g/ | g2 g2 | !fermata!g4 |] %96
+V:2
+ z4 | z4 | z c cd | !tenuto!e2 (d/c/B) | c4- | c4 | z4 | z4 | z4 | z4 | z c cd | %11
+ (!tenuto!e2 d/c/B) | c4- | c4 | c3 B | !tenuto!A2 z2 | d3 c | B2 z2 | c3 c | c2 dc | c2 B2 | c4 | %22
+!f! z c cd | !tenuto!e2 (d/c/B) | c2 z2 | z A AB | !tenuto!c2 (B/A/^G) | A2 z2 | z A AB | %29
+ !tenuto!c2 (B/A/^G) | A2 z2 | c3 B | A2 z2 | d3 c | B2 z2 | c3 c | c2 dc | c2 B2 | c4 | z c cd | %40
+ !tenuto!e2 (d/c/B) | c2 z2 | z A AB | !tenuto!c2 (B/A/^G) | A2 z2 | z A AB | !tenuto!c2 (B/A/^G) | %47
+ A2 z2 | c3 B | A2 z2 | d3 c | B2 z2 | c3 c | c2 dc | c2 B2 | c4 | z4 | z4 | z e ef | %59
+ !tenuto!g2 (f/e/d) | e4- | e4 | z4 | z4 | z c cd | !tenuto!e2 (d/c/B) | c4- | c4 | c3 B | A2 z2 | %70
+ d3 c | B2 z2 | c3 c | c2 dc | c2 B2 | c4 | z c cd | !tenuto!e2 (d/c/B) | c2 z2 | z A AB | %80
+ !tenuto!c2 (B/A/^G) | A2 z2 | z A AB | !tenuto!c2 (B/A/^G) | A2 z2 | c3 B | A2 z2 | d3 c | B2 z2 | %89
+ c3 c | c2 dc | c2 B2 | c4 | z2 z c/c/ | c2 B2 | !fermata!c4 |] %96
+V:3
+ z A, A,B, | !tenuto!C2 (B,/A,/^G,) | A,4- | A,4 | z4 | z4 | z E, E,F, | !tenuto!G,2 (F,/E,/D,) | %8
+ E,4- | E,4 | z4 | z4 | z4 | z4 | A3 E | !tenuto!A,2 z2 | F3 G | F2 z2 | E3 E | F3 F | D2 D2 | E4 | %22
+!f! z C CD | !tenuto!E2 D2 | C2 z2 | z A, A,B, | !tenuto!C2 B,2 | A,2 z2 | z A, A,B, | %29
+ !tenuto!C2 B,2 | A,2 z2 | A3 E | A,2 z2 | F3 G | F2 z2 | E3 E | F3 F | D2 D2 | E4 | z C CD | %40
+ !tenuto!E2 D2 | C2 z2 | z A, A,B, | !tenuto!C2 B,2 | A,2 z2 | z A, A,B, | !tenuto!C2 B,2 | %47
+ A,2 z2 | A3 E | A,2 z2 | F3 G | F2 z2 | E3 E | F3 F | D2 D2 | E4 | z E EF | !tenuto!G2 (F/E/D) | %58
+ E4- | E4 | z4 | z4 | z E, E,F, | !tenuto!G,2 (F,/E,/D,) | E,4- | E,4 | z4 | z4 | A3 E | A,2 z2 | %70
+ F3 G | F2 z2 | E3 E | F3 F | D2 D2 | E4 | z C CD | !tenuto!E2 D2 | C2 z2 | z A, A,B, | %80
+ !tenuto!C2 B,2 | A,2 z2 | z A, A,B, | !tenuto!C2 B,2 | A,2 z2 | A3 E | A,2 z2 | F3 G | F2 z2 | %89
+ E3 E | F3 F | D2 D2 | E4 | z2 z E/E/ | D2 D2 | !fermata!E4 |] %96
+V:4
+!p! z4 | z4 | z4 | z4 | z C, C,D, | !tenuto!E,2 (D,/C,/B,,) | C,4- | C,4 | z C, C,D, | %9
+ !tenuto!E,2 (D,/C,/B,,) | A,,4- | A,,4- | A,,4- | A,,4 | A,,4 | !tenuto!A,,2 z2 | D,4 | G,2 z2 | %18
+ C,3 C, | F,3 F, | G,2 G,,2 | C,4 |!f! z A, A,B, | !tenuto!C2 G,2 | C,2 z2 | z F, F,G, | %26
+ !tenuto!A,2 E,2 | A,,2 z2 | z F, F,G, | !tenuto!A,2 E,2 | A,,2 z2 | A,,3 B,, | C,2 z2 | D,3 E, | %34
+ F,2 z2 | E,3 E, | F,3 F, | G,2 G,,2 | C,4 | z A, A,B, | !tenuto!C2 G,2 | C,2 z2 | z F, F,G, | %43
+ !tenuto!A,2 E,2 | A,,2 z2 | z F, F,G, | !tenuto!A,2 E,2 | A,,2 z2 | A,,3 B,, | C,2 z2 | D,3 E, | %51
+ F,2 z2 | E,3 E, | F,3 F, | G,2 G,,2 | C,4 |!p! z C CD | !tenuto!E2 (D/C/B,) | C4- | C4 | %60
+ z E, E,F, | !tenuto!G,2 (F,/E,/D,) | C,4- | C,4 | z C, C,D, | !tenuto!E,2 (D,/C,/B,,) | A,,4- | %67
+ A,,4 | A,,4 | A,,2 z2 | D,4 | G,2 z2 | C,3 C, | F,3 F, | G,2 G,,2 | C,4 | z A, A,B, | %77
+ !tenuto!C2 G,2 | C,2 z2 | z F, F,G, | !tenuto!A,2 E,2 | A,,2 z2 | z F, F,G, | !tenuto!A,2 E,2 | %84
+ A,,2 z2 | A,,3 B,, | C,2 z2 | D,3 E, | F,2 z2 | E,3 E, | F,3 F, | G,2 G,,2 | C,4 | z2 z C,/C,/ | %94
+ G,2 G,,2 | !fermata!C,4 |] %96
+

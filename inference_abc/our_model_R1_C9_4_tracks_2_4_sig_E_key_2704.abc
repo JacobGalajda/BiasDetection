@@ -1,0 +1,37 @@
+X:1
+T:Title
+%%score 1 2 3 4
+L:1/8
+Q:1/4=100
+M:2/4
+K:E
+V:1 treble nm="violin 1"
+V:2 treble nm="violin 2"
+V:3 alto nm="viola"
+V:4 bass nm="cello"
+V:1
+"^Molto animato" z4 |"^soli"!mf! (vg3 !tenuto!g) | (b3 !tenuto!b) | (c'2 ac') | b4 | %5
+ (ug3 !tenuto!g) | b4 | (a2 fa) | g4 | (f3 !tenuto!f) | (e3 !tenuto!e) | (f4 | b4) | %13
+!p! (vg3 !tenuto!g) | (b3 !tenuto!b) | (c'2 ac') | b4 | (ug3 !tenuto!g) | b4 | (a2 fa) | g4 | %21
+ (f3 !tenuto!f) | (e3 !tenuto!e) | (f3 d |!p! e4) |"_cresc." (e3 f) | (g3 a) | (b4 | g4) | (e3 f) | %30
+ (g3 ^a) | (b3 ^a) |!>(! g4!>)! |"_cresc." (e3 f) | (g3 a) | (b4 | g4) | (e3 f) | (g3 a) | %39
+ (b3 ^a) |!>(! g4!>)! |!p! (g3 !tenuto!g) | (b3 !tenuto!b) | (c'2 ac') | b4 | (ug3 !tenuto!g) | %46
+ b4 | (a2 fa) | g4 | (f3 !tenuto!f) | (e3 !tenuto!e) | (f4 | b4) |!p! e4- | e4- | e4- | %56
+ !fermata!e4 |] %57
+V:2
+!mp! G4 | G4 | F4 | F4 | F4 | E4 | F4 | A4 | G4 | D4 | B,4 | D4 | D4 |!p! G4 | F4 | F4 | F4 | E4 | %18
+ F4 | A4 | G4 | F4 | E4 | D4 |!p! E4 |"_cresc." E4 | D4 | (E3 G | B4) | E4 | G4 | G4 |!>(! E4!>)! | %33
+"_cresc." E4 | D4 | (E3 G | B4) | E4 | G4 | G4 |!>(! E4!>)! |!p! E4 | E4 | E4 | D4 | E4 | E4 | E4 | %48
+ E4 | F4 | G4 | F4 | A4 |!p! B4 | B4 | B4- | !fermata!B4 |] %57
+V:3
+!mp! E4 | E4 | D4 | C4 | D4 | E4 | D4 | C4 | E4 | F,4 | G,4 | A,4 | F,4 |!p! E4 | D4 | C4 | D4 | %17
+ E4 | D4 | C4 | E4 | D4 | B,4 | A,4 |!p! G,4 |"_cresc." B,4 | B,4 | B,4 | (E2 D2) | C4 | E4 | D4 | %32
+!>(! C4!>)! |"_cresc." B,4 | B,4 | B,4 | (E2 D2) | C4 | E4 | D4 |!>(! C4!>)! |!p! B,4 | C4 | C4 | %44
+ B,4 | B,4 | C4 | C4 | B,4 | C4 | E4 | B,4 | F,4 |!p! G,4 | G,4 | G,4- | !fermata!G,4 |] %57
+V:4
+!mp! E,,4 | E,,4 | F,,4 | F,,4 | B,,4 | E,4 | F,4 | F,4 | G,4 | A,4 | B,4 | B,4 | A,4 |!p! E,4 | %14
+ F,4 | F,4 | B,4 | E4 | D4 | C4 | B,4 | A,4 | G,4 | F,4 |!p! E,4 |"_cresc." G,4 | G,4 | G,4 | %28
+ (G,2 F,2) | E,4 | G,4 | B,4 |!>(! C4!>)! |"_cresc." G,4 | G,4 | G,4 | (G,2 F,2) | E,4 | G,4 | %39
+ B,4 |!>(! C4!>)! |!p! G,4 | E,4 | G,4 | B,4 | G,4 | E,4 | A,4 | G,4 | A,4 | B,4 | D4 | D4 | %53
+!p! E4 | E4 | E4- | !fermata!E4 |] %57
+

@@ -1,0 +1,68 @@
+X:1
+T:Title
+%%score 1 2 3 4
+L:1/8
+Q:1/4=100
+M:4/4
+K:C
+V:1 treble nm="treble"
+V:2 treble nm="treble"
+V:3 alto nm="bass"
+V:4 bass nm="bass"
+V:1
+ z A,/B,/ CC CA, C/B,/A, | z A,/B,/ CC CA, C/B,/A, | z C/D/ EE EC E/D/C | z C/D/ EE EC E/D/C | %4
+ z E/^F/ GG GE G/F/E | z E/^F/ GG GE G/F/E | z G/A/ BB BG B/A/G | z G/A/ BB BG B/A/G | %8
+ e2 e2 ee z2 | e2 e2 ee z2 | e2 e2 ee z2 | e2 e2 ee z2 |[K:D][Q:1/4=80] z8 |[M:2/4] z4 | %14
+[Q:1/4=92] z4 | z F FG | G2 A2 | A2 F2 | E4- | E4 | z F FG | G2 A2 | A2 F2 | G4 | E2 EE | F2 GG | %26
+ G2 A2 | B4 | A4- | A2 z2 | B4 | A2 B2 | A2 F2 | A4 | A4 | A2 B2 | A2 F2 | G4 | E2 EE | F2 G2 | %40
+ G2 A2 | B4 | A4- | A2 z2 | B4 | A2 B2 | A2 F2 | A4 | A4 | A2 B2 | A2 F2 | G4 | E2 EE | F2 GG | %54
+ G2 A2 | B4 | A4 | A2 BB | A2 G2 | A4- | A4 | A4- | A4 | A4- | A4- | A2 z2 |[M:4/4][Q:1/4=90] z8 | %67
+[Q:1/4=80] z8 |[Q:1/4=110] z8 |[K:D][M:2/4] z4 |[Q:1/4=80] z4 |[M:4/4] z8 |[Q:1/4=120] z8 | %73
+[K:A] z8 |[K:D] z8 |[Q:1/4=96] z8 |[K:C] z8 |[Q:1/4=102] z8 |[K:A] z8 |[K:D] z8 |[K:G] z8 | %81
+[K:D][Q:1/4=64] z8 |[K:D][M:2/4] z4 |[Q:1/4=92] z4 |[Q:1/4=92] z4 |[Q:1/4=94] z4 |[Q:1/4=108] z4 | %87
+[K:G][M:2/2][Q:1/4=124] z8 |[K:D] z8 |[Q:1/4=160] z8 |[K:D] z8 |[K:D] z8 |[K:D] z8 |[K:Eb] z8 | %94
+[K:Eb] z8 |[Q:1/4=216] z8 |[K:D][M:4/4][Q:1/4=200] z8 |[K:D] z8 |[K:D] z8 |[K:D] z8 | %100
+[K:D][M:4/4][Q:1/4=140] z8 |[K:D] z8 |[K:A][Q:1/4=120] z8 |[K:D] z8 |[K:E] z8 |[Q:1/4=120] z8 | %106
+[K:G] z8 |[K:C] z8 |[K:F] z8 |[K:D] z8 |[K:A] z8 |[K:Eb] z8 | %112
+V:2
+ z A,/B,/ CC CA, C/B,/A, | z A,/B,/ CC CA, C/B,/A, | z C/D/ EE EC E/D/C | z C/D/ EE EC E/D/C | %4
+ z E/^F/ GG GE G/F/E | z E/^F/ GG GE G/F/E | z G/A/ BB BG B/A/G | z G/A/ BB BG B/A/G | %8
+ c2 c2 cc z2 | c2 c2 cc z2 | c2 c2 cc z2 | c2 c2 cc z2 |[K:D] z8 |[M:2/4] z4 | z4 | z D DD | %16
+ D2 D2 | D2 D2 | C4- | C4 | z D DD | D2 D2 | D2 D2 | E4 | C2 CC | D2 DD | D2 D2 | D4 | E4- | %29
+ E2 z2 | D4 | D2 D2 | D2 D2 | F4 | F4 | F2 G2 | F2 D2 | E4 | C2 CC | D2 D2 | D2 D2 | D4 | E4- | %43
+ E2 z2 | D4 | D2 D2 | D2 D2 | F4 | F4 | F2 G2 | F2 D2 | E4 | C2 CC | D2 DD | D2 D2 | D4 | E4 | %57
+ D2 DD | D2 D2 | F4- | F4 | E4- | E4 | F4- | F4- | F2 z2 |[M:4/4] z8 | z8 | z8 |[K:D][M:2/4] z4 | %70
+ z4 |[M:4/4] z8 | z8 |[K:A] z8 |[K:D] z8 | z8 |[K:C] z8 | z8 |[K:A] z8 |[K:D] z8 |[K:G] z8 | %81
+[K:D] z8 |[K:D][M:2/4] z4 | z4 | z4 | z4 | z4 |[K:G][M:2/2] z8 |[K:D] z8 | z8 |[K:D] z8 |[K:D] z8 | %92
+[K:D] z8 |[K:Eb] z8 |[K:Eb] z8 | z8 |[K:D][M:4/4] z8 |[K:D] z8 |[K:D] z8 |[K:D] z8 | %100
+[K:D][M:4/4] z8 |[K:D] z8 |[K:A] z8 |[K:D] z8 |[K:E] z8 | z8 |[K:G] z8 |[K:C] z8 |[K:F] z8 | %109
+[K:D] z8 |[K:A] z8 |[K:Eb] z8 | %112
+V:3
+ z A,/B,/ CC CA, C/B,/A, | z A,/B,/ CC CA, C/B,/A, | z A,/B,/ CC CA, C/B,/A, | %3
+ z A,/B,/ CC CA, C/B,/A, | z C/D/ EE EC E/D/C | z C/D/ EE EC E/D/C | z E/^F/ GG GE G/F/E | %7
+ z E/^F/ GG GE G/F/E | G2 G2 GG z2 | G2 G2 GG z2 | G2 G2 GG z2 | G2 G2 GG z2 |[K:D] z8 | %13
+[M:2/4] z4 | z4 | z F, F,G, | G,2 A,2 | A,2 A,2 | A,4- | A,4 | z F, F,G, | G,2 A,2 | A,2 A,2 | %23
+ A,4 | A,2 A,A, | A,2 A,A, | A,2 A,2 | A,4 | A,4- | A,2 z2 | B,4 | A,2 B,2 | A,2 A,2 | A,4 | A,4 | %35
+ A,2 B,2 | A,2 A,2 | A,4 | A,2 A,A, | A,2 A,2 | A,2 A,2 | A,4 | A,4- | A,2 z2 | B,4 | A,2 B,2 | %46
+ A,2 A,2 | A,4 | A,4 | A,2 B,2 | A,2 A,2 | A,4 | A,2 A,A, | A,2 A,A, | A,2 A,2 | A,4 | A,4 | %57
+ A,2 B,B, | A,2 G,2 | A,4- | A,4 | A,4- | A,4 | A,4- | A,4- | A,2 z2 |[M:4/4] z8 | z8 | z8 | %69
+[K:D][M:2/4] z4 | z4 |[M:4/4] z8 | z8 |[K:A] z8 |[K:D] z8 | z8 |[K:C] z8 | z8 |[K:A] z8 |[K:D] z8 | %80
+[K:G] z8 |[K:D] z8 |[K:D][M:2/4] z4 | z4 | z4 | z4 | z4 |[K:G][M:2/2] z8 |[K:D] z8 | z8 |[K:D] z8 | %91
+[K:D] z8 |[K:D] z8 |[K:Eb] z8 |[K:Eb] z8 | z8 |[K:D][M:4/4] z8 |[K:D] z8 |[K:D] z8 |[K:D] z8 | %100
+[K:D][M:4/4] z8 |[K:D] z8 |[K:A] z8 |[K:D] z8 |[K:E] z8 | z8 |[K:G] z8 |[K:C] z8 |[K:F] z8 | %109
+[K:D] z8 |[K:A] z8 |[K:Eb] z8 | %112
+V:4
+ z A,/B,/ CC CA, C/B,/A, | z A,/B,/ CC CA, C/B,/A, | z A,/B,/ CC CA, C/B,/A, | %3
+ z A,/B,/ CC CA, C/B,/A, | z C/D/ EE EC E/D/C | z C/D/ EE EC E/D/C | z E/^F/ GG GE G/F/E | %7
+ z E/^F/ GG GE G/F/E | C2 C2 CC z2 | C2 C2 CC z2 | C2 C2 CC z2 | C2 C2 CC z2 |[K:D] z8 | %13
+[M:2/4] z4 | z4 | z D, D,E, | E,2 F,2 | F,2 D,2 | A,,4- | A,,4 | z D, D,E, | E,2 F,2 | F,2 D,2 | %23
+ E,4 | A,,2 A,,A,, | A,,2 B,,B,, | B,,2 D,2 | D,4 | A,,4- | A,,2 z2 | D,4 | D,2 D,2 | D,2 D,2 | %33
+ D,4 | D,4 | D,2 D,2 | D,2 D,2 | E,4 | A,,2 A,,A,, | A,,2 B,,2 | B,,2 D,2 | D,4 | A,,4- | A,,2 z2 | %44
+ D,4 | D,2 D,2 | D,2 D,2 | D,4 | D,4 | D,2 D,2 | D,2 D,2 | E,4 | A,,2 A,,A,, | A,,2 B,,B,, | %54
+ B,,2 D,2 | D,4 | A,,4 | D,2 D,D, | D,2 D,2 | D,4- | D,4 | A,,4- | A,,4 | D,4- | D,4- | D,2 z2 | %66
+[M:4/4] z8 | z8 | z8 |[K:D][M:2/4] z4 | z4 |[M:4/4] z8 | z8 |[K:A] z8 |[K:D] z8 | z8 |[K:C] z8 | %77
+ z8 |[K:A] z8 |[K:D] z8 |[K:G] z8 |[K:D] z8 |[K:D][M:2/4] z4 | z4 | z4 | z4 | z4 |[K:G][M:2/2] z8 | %88
+[K:D] z8 | z8 |[K:D] z8 |[K:D] z8 |[K:D] z8 |[K:Eb] z8 |[K:Eb] z8 | z8 |[K:D][M:4/4] z8 |[K:D] z8 | %98
+[K:D] z8 |[K:D] z8 |[K:D][M:4/4] z8 |[K:D] z8 |[K:A] z8 |[K:D] z8 |[K:E] z8 | z8 |[K:G] z8 | %107
+[K:C] z8 |[K:F] z8 |[K:D] z8 |[K:A] z8 |[K:Eb] z8 | %112
+

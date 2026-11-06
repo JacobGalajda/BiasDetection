@@ -1,0 +1,45 @@
+X:1
+T:Title
+%%score 1 2 3 4
+L:1/8
+Q:1/4=100
+M:3/4
+K:E
+V:1 treble nm="treble"
+V:2 treble nm="treble"
+V:3 alto nm="bass"
+V:4 bass nm="bass"
+V:1
+ e4 dc | B4 B2 | c2 cd ef | d2 cd B2 | c2 d2 e2 | B4 B2 | A4 G2 | F6 | e4 dc | B4 B2 | c2 cd ef | %11
+ d2 cd B2 | e2 d2 c2 | B4 G2 | A4 B2 | E4 z2 |[Q:1/4=80] e4 dc | B4 B2 | c2 cd ef | d2 cd B2 | %20
+ c2 d2 e2 | B4 B2 | A4 G2 | F6 | e4 dc | B4 B2 | c2 cd ef | d2 cd B2 | e2 d2 c2 | B4 G2 | A4 B2 | %31
+ E4 z2 | G4 B2 | B4 G2 | A4 A2 | B4 B2 | G4 B2 | B4 G2 | A4 B2 | B4 z2 | e4 dc | B4 B2 | c2 cd ef | %43
+ d2 cd B2 | e2 d2 c2 | B4 G2 | A4 B2 | E4 z2 | e4 dc | B4 B2 | c2 cd ef | d2 cd B2 | e2 d2 c2 | %53
+ B4 B2 | A4 G2 | F6 | e4 dc | B4 B2 | c2 cd ef | d2 cd B2 | e2 d2 c2 | B4 G2 | A4 B2 | E4 z2 | %64
+[Q:1/4=70] e2 d2 c2 | B4 G2 | A4 B2 | E6- | E6- | E2 z4 |] %70
+V:2
+ z6 | z6 | z6 | z6 | e2 d2 c2 | B4 B2 | A2 F2 E2 | D6 | z6 | z6 | z6 | z6 | e2 d2 c2 | B4 G2 | %14
+ E4 D2 | E4 z2 | z6 | z6 | z6 | z6 | e2 d2 c2 | B4 B2 | A2 F2 E2 | D6 | z6 | z6 | z6 | z6 | %28
+ e2 d2 c2 | B4 G2 | E4 D2 | E4 z2 | E4 F2 | E4 E2 | E4 E2 | F4 F2 | E4 F2 | E4 E2 | E4 E2 | D4 z2 | %40
+ e4 dc | B4 B2 | c2 cd ef | d2 cd B2 | e2 d2 c2 | B4 G2 | A4 B2 | E4 z2 | G4 B2 | B4 G2 | A4 A2 | %51
+ B4 B2 | e2 d2 c2 | B4 G2 | A4 G2 | F6 | G4 B2 | B4 G2 | A4 A2 | B4 B2 | e2 d2 c2 | B4 G2 | E4 D2 | %63
+ E4 z2 | e2 d2 c2 | B4 G2 | E4 D2 | E6- | E6- | E2 z4 |] %70
+V:3
+ G,4 B,2 | B,4 G,2 | A,4 A,2 | B,4 B,2 | E2 D2 C2 | B,4 G,2 | C2 A,2 G,2 | F,6 | G,4 B,2 | %9
+ B,4 G,2 | A,4 A,2 | B,4 B,2 | E2 D2 C2 | B,4 E,2 | E,4 B,2 | E,4 z2 | G,4 B,2 | B,4 G,2 | %18
+ A,4 A,2 | B,4 B,2 | E2 D2 C2 | B,4 G,2 | C2 A,2 G,2 | F,6 | G,4 B,2 | B,4 G,2 | A,4 A,2 | %27
+ B,4 B,2 | E2 D2 C2 | B,4 E,2 | E,4 B,2 | E,4 z2 | E4 DC | B,4 B,2 | C2 CD EF | D2 CD B,2 | E4 DC | %37
+ B,4 B,2 | A,2 A,G, F,2 | F,4 z2 | G,4 B,2 | B,4 G,2 | A,4 A,2 | B,4 B,2 | E2 D2 C2 | B,4 G,2 | %46
+ E,4 D,2 | E,4 z2 | E,4 F,2 | E,4 E,2 | E,4 E,2 | F,4 F,2 | E,2 D,2 C,2 | B,,4 B,,2 | A,,4 E,2 | %55
+ B,,6 | E,4 F,2 | E,4 E,2 | E,4 E,2 | F,4 F,2 | E,2 D,2 C,2 | B,,4 B,,2 | E,4 D,2 | E,4 z2 | %64
+ E2 D2 C2 | B,4 G,2 | E,4 B,2 | E,6- | E,6- | E,2 z4 |] %70
+V:4
+ E,4 F,2 | E,4 E,2 | E,4 E,2 | F,4 F,2 | E,2 D,2 C,2 | B,,4 B,,2 | A,,4 E,2 | B,,6 | E,4 F,2 | %9
+ E,4 E,2 | E,4 E,2 | F,4 F,2 | E,2 D,2 C,2 | B,,4 G,,2 | A,,4 B,,2 | E,4 z2 | E,4 F,2 | E,4 E,2 | %18
+ E,4 E,2 | F,4 F,2 | E,2 D,2 C,2 | B,,4 B,,2 | A,,4 E,2 | B,,6 | E,4 F,2 | E,4 E,2 | E,4 E,2 | %27
+ F,4 F,2 | E,2 D,2 C,2 | B,,4 G,,2 | A,,4 B,,2 | E,4 z2 | E,4 D,C, | B,,4 B,,2 | C,2 C,D, E,F, | %35
+ D,2 C,D, B,,2 | E,4 D,C, | B,,4 B,,2 | A,,2 A,,G,, F,,2 | B,,4 z2 | E,4 F,2 | E,4 E,2 | E,4 E,2 | %43
+ F,4 F,2 | E,2 D,2 C,2 | B,,4 G,,2 | E,4 D,2 | E,4 z2 | E4 DC | B,4 B,2 | C2 CD EF | D2 CD B,2 | %52
+ E2 D2 C2 | B,4 B,2 | A,4 G,2 | F,6 | E4 DC | B,4 B,2 | C2 CD EF | D2 CD B,2 | E2 D2 C2 | B,4 G,2 | %62
+ E,4 D,2 | E,4 z2 | E,2 D,2 C,2 | B,,4 G,,2 | A,,4 B,,2 | E,6- | E,6- | E,2 z4 |] %70
+

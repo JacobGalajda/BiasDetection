@@ -1,0 +1,39 @@
+X:1
+T:Title
+%%score 1 2 3 4
+L:1/8
+Q:1/4=100
+M:2/4
+K:G
+V:1 treble nm="violin 1"
+V:2 treble nm="violin 2"
+V:3 alto nm="viola"
+V:4 bass nm="cello"
+V:1
+"^Lively"!f! !>!v[Bg] z z2 | z4 | z4 | z4 | z!mp! !>!vB z !>!uB | z !>!B/!>!B/ z !>!B/!>!B/ | %6
+ z !>!vB z !>!uB | z !>!B/!>!B/ z !>!B/!>!B/ | z vB/B/ z uB | z B/B/ z uB | z B/B/ z uB | %11
+ z B/B/ z uB | z B/B/ z uB | z B/B/ z uB | z B/B/ z uB | z B/B/ z uB |!mf! ve>d dc | d/e/d/c/ dG | %18
+ ue>d dc | d/e/d/c/ d2 | vg>g gg | g/a/g/=f/ ec | vd>e dd | d/e/d/c/ B/A/G/F/ | z!p! !>!vG z uG | %25
+ z !>!G z !>!G | z !>!G z !>!G | z !>!G z !>!G | z !>!vG z !>!G | z !>!G z !>!G | z !>!G z !>!G | %31
+ z !>!G z !>!G | z!f! v[Bg] z2 |] %33
+V:2
+!f! !>!v[DG] z z2 | z4 | z4 | z4 | z!mp! !>!vG z !>!uG | z !>!G/!>!G/ z !>!G/!>!G/ | %6
+ z !>!vG z !>!uG | z !>!G/!>!G/ z !>!G/!>!G/ | z vG/G/ z uG | z G/G/ z uG | z G/G/ z uG | %11
+ z G/G/ z uG | z G/G/ z uG | z G/G/ z uG | z G/G/ z uG | z G/G/ z uG |!mf! vE2 E2 | =F2 D2 | %18
+ vE2 E2 | =F2 D2 | vG2 G2 | B2 A2 | vG2 F2 | G2 z2 | z!p! !>!vD z !>!D | z !>!D z !>!D | %26
+ z !>!D z !>!D | z !>!D z !>!D | z !>!vD z !>!D | z !>!D z !>!D | z !>!D z !>!D | z !>!D z !>!D | %32
+ z!f! v[Gd] z2 |] %33
+V:3
+!f! vG,vD/D/ !>!GD/D/ | G,/G,/D/D/ !>!GD | !>!G,D/D/ GD/D/ | G,/G,/D/D/ !>!GD | !>!G,D/D/ GD/D/ | %5
+ G,/G,/D/D/ !>!GD | !>!G,D/D/ GD/D/ | G,/G,/D/D/ !>!GD | !>!vG,D/D/ z !>!uD | G,D/D/ z !>!uD | %10
+ G,D/D/ z !>!uD | G,D/D/ z !>!uD | G,D/D/ z !>!uD | G,D/D/ z !>!uD | G,D/D/ z !>!uD | %15
+ G,D/D/ z !>!uD |!mf! vG,2 G,2 | D2 B,2 | vG,2 G,2 | D2 B,2 | vG,2 D2 | E2 C2 | vA,2 C2 | B,2 z2 | %24
+!p! !>!vG,2 !>!uG,2 | !>!G,2 !>!G,2 | !>!vG,2 !>!uG,2 | !>!G,2 !>!G,2 | !>!vG,2 !>!uG,2 | %29
+ !>!G,2 !>!G,2 | !>!vG,2 !>!uG,2 | !>!G,2 !>!G,2 | z!f! vG z2 |] %33
+V:4
+!f! !>!v[G,,D,B,] z z2 | z4 | !>!vG,, z z2 | z4 | !>!vG,,!mp!!>!uD z !>!uD | %5
+ z !>!D/!>!D/ z !>!D/!>!D/ | z !>!vD z !>!uD | z !>!D/!>!D/ z !>!D/!>!D/ |!f! vG,>vD DC | D>G D2 | %10
+ vB,>C B,A, | G,3 uG | G,>D DC | D>G D2 | B,>C B,A, | G,3 z |!mf! vC,2 C,2 | G,,2 G,,2 | vC,2 C,2 | %19
+ G,,2 G,,2 | vG,2 B,,2 | C,2 A,,2 | vD,2 D,2 | G,2 z2 |!f! vG,>vD DC | D>G D2 | vB,>C B,A, | %27
+ G,3 uG | G,>D DC | D>G D2 | B,>C B,A, | G,3 z | z!f! vG,, z2 |] %33
+

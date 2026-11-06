@@ -1,0 +1,170 @@
+X:1
+T:Title
+%%score 1 2 3 4
+L:1/8
+Q:1/4=100
+M:2/4
+K:C
+V:1 treble nm="treble"
+V:2 treble nm="treble"
+V:3 alto nm="bass"
+V:4 bass nm="bass"
+V:1
+ d2 c2 _B4 | A4 z2 A2 | _B4 B2 B2 | c2 d4 ^c2 | d4 z4 | z8 | z2 f2 e2 c2 | d4 c4 | B8 | d4 e4- | %10
+ e2 e2 f4 | e2 d4 d2 | ^c4 z2 =c2 | c4 B4 | A4 z2 A2 | B2 c2 A2 A2 | ^G4 z2 B2 | c2 A2 A2 ^G2 | %18
+ A4 z4 | z4 z2 A2 | G2 A2 B2 c2 | d2 d2 e2 c2 | d2 d2 e2 c2 | d4 e2 c2 | f2 f2 e2 g2 | f2 f4 e2 | %26
+ f4 z2 f2 | e2 d2 d2 ^c2 | d4 z2 c2 | B4 A4- | A4 G4 | A8 | z4 A4 | A2 A4 G2 | A4 A2 A2- | %35
+ A2 A2 A4 | G4 F2 E2 | E4 z2 E2 | E2 E2 F4 | G2 G4 A2 | A4 G2 A2 | G2 F4 E2 | F4 A2 A2- | %43
+ A2 G2 A2 G2 | A4 G2 A2 | G2 F4 E2 | F4 z2 A2- | A2 A2 G2 G2 | A4 A2 G2- | G2 A2 F2 F2 | E4 z2 F2 | %51
+ G4 F2 F2 | G4 F2 F2 | G2 G2 A2 A2 | G2 F4 E2 | F4 z2 F2 | G4 F2 F2 | G4 F2 F2 | G2 G2 A2 A2 | %59
+ G2 F4 E2 | F4 z2 d2- | d2 c2 d2 e2 | f4 e2 d2- | d2 c2 d2 A2- | A2 A2 c2 B2 | A4 G2 A2 | %66
+ A2 A4 G2 | A4 z2 A2 | B4 c2 d2 | e4 f2 d2 | c2 B4 A2 | B4 z2 B2 | c4 c2 c2 | B2 A2 G2 A2- | %74
+ A2 G2 A2 G2 | F4 E4 | z2 G2 G2 G2 | A4 A2 A2 | B2 B2 A4 | G2 A4 B2 | c2 B2 A2 A2 | G2 G2 c4 | %82
+ c2 c2 A4 | A2 A2 A4 | G4 A4 | ^G4 A4- | A4 A4 | z2 A2 A2 A2 | G2 G2 F4 | E2 A4 A2 | B4 G4 | %91
+ A2 B2 c2 d2 | B4 c2 c2 | B2 B2 c4 | c2 B4 A2 | B2 A4 G2 | A4 z2 A2 | A4 G2 A2 | G4 F2 E2 | %99
+ E4 A2 A2 | A2 B4 A2 | A2 A2 G4 | G4 F4 | G4 G4 | G2 G2 A4 | G2 A2 B4 | A2 c4 c2 | d4 B2 c2 | %108
+ d4 c2 B2- | B2 A2 A4 | A2 G2 A2 B2- | B2 A2 A2 A2 | G2 G2 F4 | E4 z2 G2- | G2 G2 G4 | G2 G4 A2 | %116
+ A4 G4 | G2 G2 A2 A2- | A2 G2 A2 B2 | c4 c2 c2 | A2 B2 c4 | c4 z2 A2 | G4 G2 G2- | G2 A4 B2 | %124
+ c4 c4 | B4 A2 A2 | A2 A2 G2 G2 | F4 E4 | G6 G2 | A4 B4 | c4 c4 | A4 A4 | G4 G4 | A4 A4 | G4 F4 | %135
+ G4 F4 | G4 G2 G2 | G4 A2 G2 | A4 A4 | G4 A2 B2 | c4 B2 B2 | c4 c2 B2 | c2 d2 B4 | A4 A2 A2 | %144
+ G2 A2 A4 | G2 G4 G2 | A2 A2 A2 G2 | G2 F2 G4 | G2 F2 G2 A2- | A2 ^G2 A4 | z4 c2 c2 | c4 B2 A2 | %152
+ A2 A2 A2 G2 | G4 G2 G2 | G2 A4 A2 | A2 A4 G2 | A4 B2 B2 | c4 B2 B2 | c2 c4 B2 | c2 d2 B2 B2 | %160
+ c4 B2 B2 | c4 B2 B2 | A2 G2 A2 A2 | G2 A4 B2 | c2 c4 B2 | A2 c4 B2 | A4 A4 | A4 A2 A2 | %168
+ G4 G2 A2- | A2 A2 G4 | A4 A4 | B4 c4 | B2 B2 c4 | B2 B2 c4 | B4 c4 | c2 B2 A2 A2 | A2 A2 B2 A2- | %177
+ A2 G2 A4 | A4 B4 | B4 A4 | B4 c4 | B2 B2 c4 | B2 c2 A2 B2 | c4 B2 A2 | B2 B2 c4 | B4 c4 | %186
+ B2 A2 A2 G2 | A4 G2 A2 | G2 A4 G2 | A4 z2 c2 | B4 c4 | B4 c4 | B4 B4 | B4 c2 c2 | c4 B2 c2- | %195
+ c2 c2 B4 | A2 A2 B4 | A4 G2 G2 | A2 B4 c2 | A4 G4 | z2 c4 c2 | B2 A2 B4 | c4 B2 B2- | %203
+ B2 B2 B2 B2 | c2 c4 B2 | c4 c4 | z2 c4 c2 | B4 B4 | c4 B2 c2 | A2 A4 A2 | G2 G2 A4 | G4 A4 | %212
+ B4 B4 | A4 G2 A2- | A2 G2 A2 A2 | A2 A2 G2 A2 | A4 A2 A2 | A2 A2 G4 | A2 A4 G2 | A4 B4 | %220
+ B4 B2 B2 | A4 G2 G2 | F4 E2 G2 | A2 B2 c4 | B4 A2 A2 | B2 B2 c4 | B4 A2 A2 | A2 G2 A2 A2 | %228
+ G4 A2 A2 | A2 G2 A4 | A4 z2 A2 | A2 G2 A2 A2 | G4 A2 A2 | B4 A2 G2 | A2 A2 B4 | B4 A4 | %236
+ A2 G2 A2 A2 | A2 G2 A4 | A4 G2 A2 | A2 G2 A4 | A4 z2 G2 | A2 G2 G4 | G2 G4 G2 | G2 G2 A4 | %244
+ G2 A4 A2 | B2 B2 c4 | B4 A4 | B2 B2 c4 | B2 A2 B4 | A4 A4 | B2 B2 c4 | B4 A2 B2- | B2 B2 c4 | %253
+ c4 B4 | A2 A2 G4 | A4 B4 | c2 c2 B4 | c4 c2 B2 | A2 G2 A4 | A4 B2 B2 | A4 A2 A2 | B4 B4 | %262
+ A2 G2 A2 A2 | A4 A4 | B4 c4 | c4 B4 | A4 B2 A2 | G2 A4 G2 | A4 z2 c2 | B2 A2 c4 | B4 z2 B2 | %271
+ B4 B2 A2 | B4 B4 | A2 G2 A4 | A2 B2 c2 c2 | B2 B2 A2 A2 | B4 c4 | c4 B2 B2 | A2 G2 A2 A2 | A4 G4 | %280
+ G2 A2 B2 B2 | A2 G2 A2 A2 | B4 A4 | G4 A4 | c4 c4 | c2 B4 B2 | B2 c4 c2 | B4 A4 | %288
+[M:6/4] A2 B2 A2 A2 G4 |[M:2/2] A2 c2 B2 A2 | A2 G2 A4 |[M:10/4] A2 A2 B4 B4 B8 | %292
+[M:9/4][Q:1/4=60] A2[Q:1/4=47] A4[Q:1/4=44] G2[Q:1/4=41] A4[Q:1/4=38] A4 |] %293
+V:2
+ G2 A4 G2 | G2 FE F4 | G4 G2 G2 | A4 G4 | z2 G2 G4 | F2 D2 E2 E2 | F4 z2 G2 | _B4 G4 | G8 | %9
+ z2 B2 c4- | c2 c2 c4 | c2 A4 G2 | A4 z2 A2 | A4 G4 | ^F4 z2 F2 | G2 E2 E2 D2 | E4 z2 G2 | %17
+ G2 F2 E2 E2 | E4 z2 A2 | G2 F2 E2 D2 | E2 F2 G2 A2 | F2 D2 A2 A2 | A2 B2 c2 A2 | A2 B2 c4- | %24
+ c2 B2 c4- | c4 c4 | A4 z2 c2 | c2 A2 _B2 A2 | A4 z2 G2 | G4 E4 | E8 | E8 | z4 F4 | F2 F4 E2 | %34
+ F4 F2 F2- | F2 E2 F4 | E4 D2 C2 | B,4 z2 C2 | C2 C2 D4 | E2 E4 F2 | F4 G2 F2 | E2 C4 C2 | %42
+ C4 F2 F2- | F2 G2 F2 E2 | F4 G2 F2 | E2 C4 C2 | C4 z2 F2- | F2 F2 E2 E2 | F4 F2 E2- | %49
+ E2 E2 D2 D2 | E4 z2 C2 | E4 D2 D2 | E4 D2 D2 | E2 E2 F2 F2 | E2 D2 C4 | D4 z2 D2 | E4 D2 D2 | %57
+ E4 D2 D2 | E2 E2 F2 F2 | E2 D2 C4 | D4 z2 A2- | A2 A2 A2 c2 | c4 c2 A2 | A4 A2 F2- | F2 F2 A2 G2 | %65
+ F4 E2 F2 | F2 F4 E2 | F4 z2 F2 | G4 A2 A2 | c4 c2 B2 | A2 G2 A4 | G4 z2 G2 | A4 A2 A2 | %73
+ G2 F2 E2 F2 | C2 G2 F2 E2 | D4 C4 | z2 E2 E2 E2 | E4 F2 F2 | G2 G2 F4 | E2 E4 G2 | G2 G2 E2 F2 | %81
+ E2 E2 A4 | A2 G2 F4 | E2 E2 F4 | E4 E4 | E4 ^C4- | C4 ^C4 | z2 E2 F2 F2 | E2 E2 D4 | ^C2 E4 E2 | %90
+ G4 E4 | F2 G2 A2 A2 | G4 G2 G2 | G2 G2 A4 | G2 G4 D2 | G2 E2 E4 | E4 z2 E2 | F4 E2 F2 | E4 D2 C2 | %99
+ C4 E2 E2 | F2 G4 E2 | F2 F2 D4 | E4 D4 | E4 E4 | E2 E2 F4 | G2 F2 G4 | E2 A4 A2 | B4 G2 G2 | %108
+ A4 G2 G2- | G2 E2 F4 | F2 E2 F2 G2- | G2 E2 F2 F2 | D2 E2 D4 | C4 z2 D2- | D2 D2 D4 | E2 E4 F2 | %116
+ F4 D4 | E2 E2 F2 F2- | F2 D2 F2 F2 | G4 A2 G2 | A2 G2 G4 | G4 z2 F2 | D4 D2 D2- | D2 F4 F2 | %124
+ G4 A4 | G4 F2 F2 | F2 F2 E2 E2 | D4 ^C4 | z2 D4 D2 | F4 G4 | G4 G4 | F4 F4 | E4 E4 | F4 F4 | %134
+ D4 D4 | D4 D4 | E4 E2 E2 | E4 F2 G2 | F4 F4 | E4 F2 G2 | A4 G2 G2 | A4 A2 G2 | A2 A2 G4 | %143
+ F4 F2 F2 | E2 F2 F4 | E2 D4 D2 | F2 F2 E2 E2 | E2 D2 D4 | E2 D2 E2 E2 | E4 E4 | z4 A2 A2 | %151
+ A4 G2 F2 | E2 E2 F2 D2 | E4 E2 E2 | E2 F4 F2 | F2 F4 D2 | F4 G2 G2 | A4 G2 G2 | A2 A4 G2 | %159
+ A2 A2 G2 G2 | A4 G2 G2 | A4 G2 G2 | F2 D2 F2 F2 | E2 F4 G2 | G2 G4 G2 | E2 A4 G2 | F4 F4 | %167
+ F4 F2 F2 | D4 E2 F2- | F2 F2 E4 | F4 F4 | G4 A4 | G2 G2 A4 | G2 G2 A4 | G4 A4 | A2 G2 F2 F2 | %176
+ F2 F2 G2 F2- | F2 D2 F4 | F4 G4 | G4 F4 | G4 A4 | G2 G2 A4 | G2 G2 F2 G2 | G4 G2 E2 | G2 G2 G4 | %185
+ G4 G4 | G2 F2 F2 D2 | F4 E2 E2 | E2 D2 E4 | E4 z2 A2 | G4 G4 | G4 G4 | G4 G4 | G4 A2 A2 | %194
+ G4 G2 A2- | A2 G2 G4 | F2 F2 G4 | F4 D2 E2 | F2 G4 G2 | F4 E4 | z2 A4 A2 | G2 F2 G4 | G4 G2 G2- | %203
+ G2 G2 G2 G2 | A2 A4 G2 | G4 G4 | z2 A4 A2 | G4 G4 | G4 G2 G2 | F2 F4 F2 | D2 D2 F4 | E4 F4 | %212
+ G4 G4 | F4 E2 F2- | F2 D2 F2 F2 | F2 F2 E2 F2 | F4 F2 F2 | F2 F2 D4 | F2 F4 E2 | E4 G4 | %220
+ G4 G2 G2 | E4 E2 E2 | D4 C2 E2 | F2 G2 G4 | G4 E2 E2 | G2 G2 A4 | G4 E2 E2 | F2 D2 F2 F2 | %228
+ E4 F2 F2 | F2 E2 F4 | F4 z2 E2 | F2 D2 F2 F2 | E4 F2 F2 | G4 F2 E2 | E2 E2 G4 | G4 E4 | %236
+ F2 D2 F2 F2 | F2 D2 F4 | F4 E2 F2 | F2 D2 E4 | F4 z2 D2 | F2 E2 D4 | D2 D4 D2 | E2 E2 F4 | %244
+ E2 F4 F2 | G2 G2 A4 | G4 F4 | G2 G2 A4 | G2 F2 G4 | F4 F4 | G2 G2 A4 | G4 F2 G2- | G2 G2 G4 | %253
+ A4 G4 | E2 E2 E4 | E4 G4 | A2 A2 G4 | A4 A2 G2 | F2 E2 F4 | F4 G2 G2 | F4 F2 F2 | G4 G4 | %262
+ F2 E2 F2 F2 | F4 F4 | G4 G4 | A4 G4 | E4 G2 E2 | E2 D2 E4 | E4 z2 A2 | G2 F2 G4 | G4 z2 G2 | %271
+ G4 G2 F2 | G4 G4 | F2 E2 F4 | F2 G2 G2 G2 | G2 G2 F2 F2 | G4 G4 | A4 G2 G2 | F2 E2 F2 F2 | F4 D4 | %280
+ E2 E2 G2 G2 | F2 D2 F2 F2 | G4 F4 | E4 F4 | G4 G4 | G2 G4 G2 | G2 A4 A2 | G4 F4 | %288
+[M:6/4] F2 G2 F2 F2 E4 |[M:2/2] E2 A2 G2 F2 | F2 D2 F4 |[M:10/4] F2 F2 G4 G4 G8 | %292
+[M:9/4] F2 F4 D2 F4 E4 |] %293
+V:3
+ G,2 C2 F,2 G,2 | A,4 z2 A,2 | G,4 G,2 D2 | C2 A,2 B,2 G,2 | A,2 B,2 B,4 | D2 D4 ^C2 | D4 z2 E2 | %7
+ F2 G2 E4 | D8 | G8 | G2 G2 A4 | G2 F4 D2 | E4 z2 E2 | F4 D4 | D4 z2 D2 | D2 C2 C2 A,2 | %16
+ B,4 z2 E2 | E2 D2 C2 B,2 | A,2 A,2 B,2 C2 | B,2 A,2 G,2 A,2 | B,2 C2 B,2 A,2 | A,2 B,2 C2 C2 | %22
+ F2 F2 E2 E2 | F2 F2 G2 A2 | F4 G2 E2 | A4 G4 | F4 z2 A2 | G2 F2 E2 E2 | F4 z2 E2 | D4 C4 | B,8 | %31
+ A,8 | z4 D4 | D2 D4 B,2 | C4 C2 C2- | C2 C2 C4 | C4 A,2 A,2 | G,4 z2 G,2 | G,2 G,2 A,4 | %39
+ C2 C4 C2 | C4 C2 C2 | _B,2 A,2 G,2 G,2 | F,4 C2 C2- | C2 C2 C2 C2 | C4 C2 C2 | _B,2 A,2 G,2 G,2 | %46
+ F,4 z2 C2- | C2 C2 C2 C2 | C4 C2 C2- | C2 C2 A,2 B,2 | C4 z2 A,2 | C4 A,2 A,2 | C4 A,2 A,2 | %53
+ C2 C2 C2 C2 | C2 A,2 A,4 | A,4 z2 A,2 | C4 A,2 A,2 | C4 A,2 A,2 | C2 C2 C2 C2 | C2 A,2 A,4 | %60
+ A,4 z2 F2- | F2 E2 F2 G2 | A4 G2 F2 | E4 D2 D2- | D2 D2 E2 E2 | C4 C2 C2 | C2 C4 C2 | C4 z2 C2 | %68
+ E4 E2 F2 | G4 A2 G2 | E4 E4 | E4 z2 E2 | E4 E2 E2 | E2 C2 C4 | A,2 C2 C4 | A,4 A,4 | %76
+ z2 B,2 B,2 B,2 | C4 C2 C2 | D2 E2 C4 | C2 C4 D2 | E2 D2 C2 D2 | B,2 B,2 F4 | F2 E2 D4 | C2 C2 C4 | %84
+ C4 C4 | B,4 A,4- | A,4 A,4 | z2 C2 C2 C2 | C2 C2 A,4 | A,2 C4 C2 | D4 C4 | C2 E2 E2 F2 | %92
+ D4 E2 E2 | D2 D2 F4 | E2 D4 A,2 | D2 C2 B,4 | A,4 z2 C2 | C4 C2 C2 | C4 A,2 A,2 | A,4 C2 C2 | %100
+ C2 E4 C2 | C2 C2 B,4 | C4 A,4 | C4 C4 | C2 C2 C4 | C2 C2 D4 | C2 E4 F2 | D4 D2 E2 | F4 E2 D2- | %109
+ D2 C2 D4 | C2 C2 C2 D2- | D2 C2 D2 D2 | B,2 C2 A,4 | A,4 z2 B,2- | B,2 B,2 B,4 | C2 C4 C2 | %116
+ D4 B,4 | C2 C2 C2 C2- | C2 B,2 C2 D2 | E4 F2 G2 | F2 D2 E4 | E4 z2 D2 | B,4 B,2 B,2- | B,2 C4 D2 | %124
+ E4 F4 | D4 D2 D2 | C2 C2 C2 C2 | A,4 A,4 | z2 B,4 B,2 | C4 D4 | E4 E4 | C4 C4 | C4 C4 | C4 C4 | %134
+ B,4 A,4 | B,4 A,4 | C4 C2 C2 | C4 C2 C2 | C4 C4 | C4 C2 D2 | E4 E2 E2 | E4 E2 E2 | E2 F2 D4 | %143
+ D4 C2 C2 | C2 C2 C4 | C2 B,4 B,2 | D2 D2 C2 C2 | B,2 A,2 B,4 | C2 A,2 B,2 C2 | B,4 A,4 | %150
+ z4 F2 F2 | F4 D2 D2 | C2 C2 C2 B,2 | C4 C2 C2 | C2 C4 C2 | C2 C4 B,2 | C4 D2 D2 | F4 D2 D2 | %158
+ F2 F4 D2 | F2 F2 D2 D2 | F4 D2 D2 | F4 D2 D2 | D2 B,2 D2 D2 | B,2 C4 D2 | E2 E4 D2 | C2 F4 D2 | %166
+ D4 C4 | D4 C2 C2 | B,4 B,2 C2- | C2 C2 C4 | C4 D4 | D4 F4 | D2 D2 F4 | D2 D2 F4 | D4 F4 | %175
+ F2 D2 D2 D2 | D2 D2 D2 D2- | D2 B,2 D4 | D4 D4 | D4 C4 | D4 F4 | D2 D2 F4 | D2 E2 C2 D2 | %183
+ E4 D2 C2 | D2 D2 E4 | D4 E4 | D2 D2 C2 B,2 | C4 C2 C2 | B,2 A,2 B,4 | C4 z2 E2 | D4 E4 | D4 E4 | %192
+ D4 E4 | D4 F2 F2 | E4 D2 F2- | F2 E2 D4 | D2 D2 D4 | D4 B,2 C2 | C2 D4 E2 | C4 C4 | z2 F4 F2 | %201
+ D2 D2 D4 | E4 D2 D2- | D2 D2 E2 E2 | E2 F4 D2 | E4 E4 | z2 F4 F2 | D4 D4 | E4 D2 E2 | C2 C4 D2 | %210
+ B,2 B,2 D4 | C4 C4 | D4 D4 | D4 B,2 C2- | C2 B,2 C2 C2 | D2 D2 B,2 C2 | D4 C2 C2 | D2 D2 B,4 | %218
+ D2 D4 B,2 | C4 D4 | E4 E2 E2 | C4 C2 C2 | A,4 A,2 C2 | C2 E2 E4 | D4 C2 C2 | E2 E2 E4 | E4 C2 C2 | %227
+ D2 B,2 C2 C2 | C4 C2 C2 | D2 B,2 C4 | D4 z2 C2 | D2 B,2 C2 C2 | C4 C2 C2 | D4 D2 B,2 | C2 C2 D4 | %235
+ E4 C4 | D2 B,2 C2 C2 | D2 B,2 C4 | D4 B,2 C2 | D2 B,2 C4 | D4 z2 B,2 | C2 C2 A,4 | B,2 B,4 B,2 | %243
+ C2 C2 C4 | C2 C4 C2 | D2 D2 F4 | D4 D4 | D2 D2 F4 | D2 D2 D4 | D4 D4 | D2 D2 F4 | D4 D2 D2- | %252
+ D2 D2 E4 | F4 D4 | C2 C2 B,4 | C4 D4 | F2 F2 D4 | F4 F2 D2 | D2 B,2 D4 | D4 D2 D2 | D4 D2 D2 | %261
+ D4 D4 | D2 B,2 D2 D2 | D4 D4 | D4 E4 | F4 D4 | C4 D2 C2 | B,2 A,2 B,4 | C4 z2 E2 | D2 D2 E4 | %270
+ D4 z2 D2 | D4 D2 D2 | D4 D4 | D2 B,2 D4 | D2 D2 E2 E2 | D2 D2 D2 D2 | D4 E4 | F4 D2 D2 | %278
+ D2 B,2 D2 D2 | D4 B,4 | B,2 C2 D2 D2 | D2 B,2 D2 D2 | D4 D4 | B,4 D4 | E4 E4 | E2 D4 D2 | %286
+ D2 F4 F2 | D4 D4 |[M:6/4] D2 D2 D2 D2 B,4 |[M:2/2] C2 E2 D2 D2 | D2 B,2 D4 | %291
+[M:10/4] D2 D2 D4 D4 D8 |[M:9/4] D2 D4 B,2 D4 C4 |] %293
+V:4
+ G,2 E,2 D,2 G,2 | D,4 z2 D,2 | G,4 G,2 G,2 | F,4 E,4 | D,2 G,2 G,4 | D,2 F,2 E,4 | D,2 D2 C2 C2 | %7
+ _B,2 G,2 C4 | G,8 | G,4 C4- | C2 C2 F,4 | C2 D4 B,2 | A,4 z2 A,2 | F,4 G,4 | D,4 z2 D,2 | %15
+ G,2 A,2 F,2 F,2 | E,4 z2 E,2 | C,2 D,2 E,2 E,2 | A,,2 A,2 G,2 F,2 | G,2 D,2 E,2 F,2 | %20
+ E,2 A,2 G,2 F,2 | F,2 G,2 A,2 A,2 | D2 D2 C2 A,2 | D4 C2 A,2 | D4 C4 | F,4 C4 | F,4 z2 F,2 | %27
+ C2 D2 G,2 A,2 | D,4 z2 C,2 | G,4 A,4 | E,8 | A,,8 | z4 D,4 | D,2 D,4 E,2 | A,4 F,2 F,2- | %35
+ F,2 A,2 F,4 | C,4 D,2 A,,2 | E,4 z2 C,2 | C,2 E,2 D,4 | C,2 C,4 F,2 | F,4 E,2 F,2 | G,2 C,4 C,2 | %42
+ F,4 F,2 F,2- | F,2 E,2 F,2 C,2 | F,4 E,2 F,2 | G,2 C,4 C,2 | F,4 z2 F,2- | F,2 F,2 C,2 C,2 | %48
+ F,4 F,2 C,2- | C,2 A,,2 D,2 D,2 | C,4 z2 F,2 | C,4 D,2 D,2 | C,4 D,2 D,2 | C,2 C,2 F,2 F,2 | %54
+ C,2 D,2 A,,4 | D,4 z2 D,2 | C,4 D,2 D,2 | C,4 D,2 D,2 | C,2 C,2 F,2 F,2 | C,2 D,2 A,,4 | %60
+ D,4 z2 D2- | D2 A,2 D2 C2 | F,4 C,2 D,2 | A,4 D,2 D,2- | D,2 D,2 A,,2 E,2 | F,4 C,2 F,2 | %66
+ F,2 F,4 C,2 | F,4 z2 F,2 | E,4 A,2 D,2 | C,4 F,2 G,2 | A,2 E,2 C4 | B,4 z2 E,2 | A,4 A,2 A,2 | %73
+ E,2 F,2 C,2 F,2- | F,2 E,2 F,2 C,2 | D,4 A,,4 | z2 E,2 E,2 E,2 | A,4 F,2 F,2 | G,2 E,2 F,4 | %79
+ C,2 A,4 G,2 | C2 G,2 A,2 D,2 | E,2 E,2 F,4 | F,2 C,2 D,4 | A,,2 A,,2 F,4 | C,4 A,,4 | E,4 A,,4- | %86
+ A,,4 A,,4 | z2 A,2 F,2 F,2 | C,2 C,2 D,4 | A,,2 A,4 A,2 | G,4 C,4 | F,2 E,2 A,2 D,2 | G,4 C,2 C2 | %93
+ G,2 G,2 F,4 | C,2 G,4 F,2 | G,2 A,2 E,4 | A,,4 z2 A,2 | F,4 C,2 F,2 | C,4 D,2 A,,2 | %99
+ A,,4 A,2 A,2 | F,2 E,4 A,2 | F,2 F,2 G,4 | C,4 D,4 | C,4 C,4 | C,2 C,2 F,4 | E,2 F,2 G,4 | %106
+ A,2 A,4 F,2 | G,4 G,2 C,2 | F,4 C,2 G,2- | G,2 A,2 D,4 | F,2 C,2 F,2 G,2- | G,2 A,2 D,2 D,2 | %112
+ G,2 C,2 D,4 | A,,4 z2 G,2- | G,2 G,2 G,4 | C,2 C,4 F,2 | D,4 G,4 | C,2 C,2 F,2 F,2- | %118
+ F,2 G,2 F,2 D,2 | C,4 F,2 E,2 | F,2 G,2 C,4 | C,4 z2 D,2 | G,4 G,2 G,2- | G,2 F,4 D,2 | C,4 F,4 | %125
+ G,4 D,2 D,2 | F,2 F,2 C,2 C,2 | D,4 A,,4 | z2 G,4 G,2 | F,4 D,4 | C,4 C,4 | F,4 F,4 | C,4 C,4 | %133
+ F,4 F,4 | G,4 D,4 | G,4 D,4 | C,4 C,2 C,2 | C,4 F,2 E,2 | F,4 F,4 | C,4 F,2 G,2 | A,4 E,2 E,2 | %141
+ A,4 A,2 E,2 | A,2 D,2 G,4 | D,4 F,2 F,2 | C,2 F,2 F,4 | C,2 G,4 G,2 | D,2 D,2 A,,2 C,2 | %147
+ G,2 D,2 G,4 | C,2 D,2 G,2 A,2 | E,4 A,,4 | z4 F,2 F,2 | F,4 G,2 D,2 | A,2 A,2 F,2 G,2 | %153
+ C,4 C,2 C,2 | C,2 F,4 F,2 | F,2 F,4 G,2 | F,4 G,2 G,2 | F,4 G,2 G,2 | F,2 F,4 G,2 | %159
+ F,2 D,2 G,2 G,2 | F,4 G,2 G,2 | F,4 G,2 G,2 | D,2 G,2 D,2 D,2 | E,2 A,4 G,2 | C,2 C,4 G,2 | %165
+ A,2 F,4 G,2 | D,4 F,4 | D,4 F,2 F,2 | G,4 G,2 F,2- | F,2 F,2 C,4 | F,4 D,4 | G,4 F,4 | %172
+ G,2 G,2 F,4 | G,2 G,2 F,4 | G,4 F,4 | F,2 G,2 D,2 D,2 | D,2 D,2 G,2 D,2- | D,2 G,2 D,4 | D,4 G,4 | %179
+ G,4 F,4 | G,4 F,4 | G,2 G,2 F,4 | G,2 C,2 F,2 G,2 | C,4 G,2 A,2 | G,2 G,2 C,4 | G,4 C,4 | %186
+ G,2 D,2 F,2 G,2 | F,4 C,2 A,,2 | E,2 F,2 E,4 | A,,4 z2 A,2 | G,4 C,4 | G,4 C,4 | G,4 E,4 | %193
+ G,4 F,2 F,2 | C,4 G,2 F,2- | F,2 C,2 G,4 | D,2 D,2 G,4 | D,4 G,2 C,2 | F,2 G,4 C,2 | F,4 C,4 | %200
+ z2 F,4 F,2 | G,2 D,2 G,4 | C,4 G,2 G,2- | G,2 G,2 E,2 E,2 | A,2 F,4 G,2 | C,4 C,4 | z2 F,4 F,2 | %207
+ G,4 G,4 | C,4 G,2 C,2 | F,2 F,4 D,2 | G,2 G,2 D,4 | C,4 F,4 | G,4 G,4 | D,4 G,2 F,2- | %214
+ F,2 G,2 F,2 F,2 | D,2 D,2 G,2 F,2 | D,4 F,2 F,2 | D,2 D,2 G,4 | D,2 D,4 E,2 | A,4 G,4 | %220
+ E,4 E,2 E,2 | A,,4 C,2 C,2 | D,4 A,,2 C,2 | F,2 E,2 C,4 | G,4 A,2 A,2 | E,2 E,2 A,4 | %226
+ E,4 A,2 A,2 | D,2 G,2 F,2 F,2 | C,4 F,2 F,2 | D,2 G,2 F,4 | D,4 z2 A,,2 | D,2 G,2 F,2 F,2 | %232
+ C,4 F,2 F,2 | G,4 D,2 E,2 | A,2 A,2 G,4 | E,4 A,4 | D,2 G,2 F,2 F,2 | D,2 G,2 F,4 | D,4 E,2 A,,2 | %239
+ D,2 G,2 A,4 | D,4 z2 G,2 | F,2 C,2 D,4 | G,2 G,4 G,2 | C,2 C,2 F,4 | C,2 F,4 F,2 | G,2 G,2 F,4 | %246
+ G,4 D,4 | G,2 G,2 F,4 | G,2 D,2 G,4 | D,4 D,4 | G,2 G,2 F,4 | G,4 D,2 G,2- | G,2 G,2 C,4 | %253
+ F,4 G,4 | A,2 A,2 E,4 | A,4 G,4 | F,2 F,2 G,4 | F,4 F,2 G,2 | D,2 E,2 D,4 | D,4 G,2 G,2 | %260
+ D,4 D,2 D,2 | G,4 G,4 | D,2 E,2 D,2 D,2 | D,4 D,4 | G,4 C,4 | F,4 G,4 | A,4 G,2 A,2 | %267
+ E,2 F,2 E,4 | A,,4 z2 A,2 | G,2 D,2 C,4 | G,4 z2 G,2 | G,4 G,2 D,2 | G,4 G,4 | D,2 E,2 D,4 | %274
+ D,2 G,2 C,2 C,2 | G,2 G,2 D,2 D,2 | G,4 C,4 | F,4 G,2 G,2 | D,2 E,2 D,2 D,2 | D,4 G,4 | %280
+ E,2 A,2 G,2 G,2 | D,2 G,2 D,2 D,2 | G,4 D,4 | E,4 D,4 | C,4 C,4 | C,2 G,4 G,2 | G,2 F,4 F,2 | %287
+ G,4 D,4 |[M:6/4] D,2 G,2 D,2 D,2 E,4 |[M:2/2] A,,2 A,2 G,2 D,2 | D,2 G,2 D,4 | %291
+[M:10/4] D,2 D,2 G,4 G,4 G,8 |[M:9/4] D,2 D,4 E,2 D,4 A,,4 |] %293
+

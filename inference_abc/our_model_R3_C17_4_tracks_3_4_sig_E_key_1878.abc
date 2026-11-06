@@ -1,0 +1,33 @@
+X:1
+T:Title
+%%score 1 2 3 4
+L:1/8
+Q:1/4=100
+M:3/4
+K:E
+V:1 treble nm="violin 1"
+V:2 treble nm="violin 2"
+V:3 alto nm="viola"
+V:4 bass nm="cello"
+V:1
+!f! e>B |: G2 B2 e2 | e2 d2 d>B | f2 d2 B>A | A2 G2 B2 | c2 ^A2 c2 | d2 B2 f>d | c2 e2 ^A2 |1 %8
+ B2 z2 e>B :|2 B2 z2!p! B2 || B2 B2 B2 | B2 B2 d2 |!<(! d2 e2 ^e2 | f2 f2!<)!!f! f2 | g2 f2 e2 | %15
+ d2 c2 B2 | A2 c2 F2 | B2 z2!mf! B2 | B2 B2 B2 | B2 B2 B2 |!<(! c2 d2 e2 | f2 f2!<)!!ff! f2 | %22
+ g2 f2 e2 | d2 c2 B2 | A2 f2 d2 | e2 z2 |] %26
+V:2
+!f! G>G |: E2 G2 B2 | B4 B>B | B2 B2 F>F | F2 E2 F2 | G2 F2 ^A2 | B2 F2 B>B | G2 G2 F2 |1 %8
+ F2 z2 G>G :|2 F2 z2!p! B2 || B2 B2 B2 | B2 B2 F2 |!<(! F2 F2 F2 | F2 B2!<)!!f! A2 | G2 A2 B2 | %15
+ A2 E2 ^E2 | F2 A2 F2 | F2 z2!mf! F2 | G2 A2 F2 | E2 F2 E2 |!<(! E2 E2 E2 | D2 E2!<)!!ff! F2 | %22
+ E2 F2 G2 | E2 E2 E2 | C2 c2 A2 | G2 z2 |] %26
+V:3
+!f! B,>E |: B,2 E2 E2 | G2 F2 F>D | D2 F2 D>D | D2 E2 B,2 | E2 E2 E2 | F2 D2 D>F | E2 C2 C2 |1 %8
+ D2 z2 B,>E :|2 D2 z2!p! D2 || D2 E2 ^E2 | F2 F2 B,2 |!<(! B,2 B,2 B,2 | B,2 B,2!<)!!f! B,2 | %14
+ B,2 B,2 B,2 | C2 C2 C2 | C2 C2 C2 | D2 z2!mf! D2 | E2 F2 D2 | E2 D2 =D2 |!<(! C2 B,2 ^A,2 | %21
+ A,2 A,2!<)!!ff! A,2 | B,2 B,2 B,2 | A,2 A,2 G,2 | F,2 A,2 B,2 | B,2 z2 |] %26
+V:4
+!f! E,>E, |: E,2 E,2 G,2 | B,4 B,>B, | B,2 B,2 B,,>B,, | B,,2 E,2 D,2 | C,2 F,2 F,2 | %6
+ B,2 B,,2 B,>B, | E,2 C,2 F,2 |1 B,,2 z2 E,>E, :|2 B,,2 z2!p! B,2 || B,2 C2 ^^C2 | D2 D2 B,,2 | %12
+!<(! B,,2 C,2 ^^C,2 | D,2 D,2!<)!!f! D,2 | E,2 F,2 G,2 | A,2 A,2 G,2 | F,2 F,2 A,2 | %17
+ B,2 z2!mf! B,2 | B,2 B,2 A,2 | G,2 A,2 G,2 |!<(! A,2 B,2 C2 | B,2 C2!<)!!ff! D2 | E2 D2 E2 | %23
+ A,2 A,2 E,2 | A,2 F,2 B,2 | E,2 z2 |] %26
+

@@ -1,0 +1,47 @@
+X:1
+T:Title
+%%score 1 2 3 4
+L:1/8
+Q:1/4=100
+M:3/4
+K:A
+V:1 treble nm="treble"
+V:2 treble nm="treble"
+V:3 alto nm="bass"
+V:4 bass nm="bass"
+V:1
+"^Andante non troppo" z6 | z!p! A A A d d | (c2 f3 e | d) d c2 B2 | A3/2 A/ d2 c2 | B B c2 ^d2 | %6
+ e2 z2 z2 | z!p! ^A A A A A | c2 B2 z2 | z G G G G G | B2 A2 z"^cresc." A | ^A3 A A A | %12
+!f! B2 z2!p! B2 | =c3 c c c | (=c2 B2) B2 | ^A3 A A A | A2 =G2 G G |"^cresc." F3 F F F | %18
+ B2 B2 z!f! B | =c3 c c c |!>(! =c2!>)! B2 z2 |!p! B2 A2 =G2 | F3 F F F | F2 F2 z2 | z6 | %25
+ z!p! A A A d d | (c2 f3 e | d) d c2 B2 | A3/2 A/ d2 c2 | B B c2 ^d2 | e2 z!p! e e e | f3 d d d | %32
+ e3 c c c | (B2 d2) G2 | A2 z e e e | f3 d d d | e3 c c c | (B2 d2) G2 | A!pp! A A A A A | c4 A2 | %40
+ z2 A2 A2 | !fermata!c6 |] %42
+V:2
+ z!p! E E E F F | (E2 A3 G | A) A d3 c | B B A2 G2 | A3/2 E/ E2 E2 | E E A2 A2 | G2 z2 z2 | %7
+ z!p! =G G G G G | =G2 F2 z2 | z =F F F F F | =F2 E2 z"^cresc." E | E3 E E E |!f! ^D2 z2!p! D2 | %13
+ ^D3 D D D | E4 E2 | E3 E E E | ^D2 E2 E E |"^cresc." E3 E E E | ^D2 D2 z!f! D | ^D3 D D D | %20
+!>(! ^D2!>)! E2 z2 |!p! E2 E2 E2 | E3 E E E | E2 ^D2 z2 | z!p! E E E F F | (E2 A3 G | A) A d3 c | %27
+ B B A2 G2 | A3/2 E/ E2 E2 | E E A2 A2 | G2 z!p! =G G G | F3 F F F | E3 E E E | (D2 F2) E2 | %34
+ E2 z =G G G | F3 F F F | E3 E E E | (D2 F2) E2 | E!pp! E E E E E | A4 E2 | z2 E2 E2 | %41
+ !fermata!E6 |] %42
+V:3
+ z6 | z6 | z2 z!p! A, A, A, | (B,2 C2 D2 | E) E G,2 A,2 | B, B, E2 F2 | B,2 z2 z2 | %7
+ z!p! C C C C C | ^A,2 B,2 z2 | z B, B, B, B, B, | G,2 A,2 z"^cresc." A, | =G,3 G, G, G, | %12
+!f! F,!p! B, B, B, B, B, | (B,2 A,2) A,2 | (A,=G,) G, G, G, G, | (=G,2 F,2) F,2 | %16
+ F, F, E, E, E, E, |"^cresc." (E,2 F,2) =G,2 | F, F, F, F,!f! F, F, | (F,2 =G,2) A,2 | %20
+!>(! A,2!>)! =G,2 z2 |!p! =G,2 A,2 B,2 | C3 C C C | B,2 B,2 z2 | z6 | z6 | z2 z!p! A, A, A, | %27
+ (B,2 C2 D2 | E) E G,2 A,2 | B, B, E2 F2 | B,!p! B, B, B, C2- | C A, A, A, B,2- | %32
+ B, G, G, G, A,2- | A, B, (B,3 D) | C C C C C2- | C A, A, A, B,2- | B, G, G, G, A,2- | %37
+ A, B, (B,3 D) | C!pp! C C C C C | E4 C2 | z2 C2 C2 | !fermata!A,6 |] %42
+V:4
+ z6 | z6 | z6 | z!p! E, E, E, E, E, | C,2 B,,2 A,,3/2 A,,/ | G,, G, F,2 F,2 | %6
+ E,!p! E, E, E, E, E, | E,4 E,2 | E, D, D, D, D, D, | D,4 D,2 | D, C, C, C,"^cresc." C, C, | %11
+ =C,4 C,2 |!f! B,,2 z2!p! B,,2 | B,,3 B,, B,, B,, | B,,4 B,,2 | B,,3 B,, B,, B,, | %16
+ B,,2 B,,2 B,, B,, |"^cresc." =C,3 C, C, C, | B,,2 B,,2 z!f! B,, | A,,3 A,, A,, A,, | %20
+!>(! A,,2!>)! =G,,2 z2 |!p! =G,,2 G,,2 G,,2 | ^A,,3 A,, A,, A,, | B,,2 B,,2 z2 | z6 | z6 | z6 | %27
+ z!p! E, E, E, E, E, | C,2 B,,2 A,,3/2 A,,/ | G,, G, F,2 F,2 | E,2 z!p! E, A,, A,, | %31
+ D,3 D, G,, G,, | C,3 C, F,, F,, | (B,,2 D,2) E,2 | A,,2 z E, A,, A,, | D,3 D, G,, G,, | %36
+ C,3 C, F,, F,, | (B,,2 D,2) E,2 | A,,!pp! A,, A,, A,, A,, A,, | A,,4 A,,2 | z2 A,,2 A,,2 | %41
+ !fermata!A,,6 |] %42
+
