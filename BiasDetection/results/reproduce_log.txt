@@ -1,0 +1,437 @@
+[    0.0s] Reproducibility run started: 2026-07-02 11:32
+[    0.0s] Sample mode: True
+[    0.0s] Skipping: {'audit', 'interval'}
+[    0.0s] 
+[sample mode] Stages 1+2: reading from existing JSON (skipping pairwise recompute -- use full run to re-generate)
+[    0.0s]   [sample mode] Stage 3: skipping recompute -- using existing JSON
+[    0.0s] 
+=======================================================
+[    0.0s] STAGE 4/7: MCIC ingest + validation
+[    0.0s]   Expected duration: ~1 min
+[    0.0s] =======================================================
+[    0.0s] $ python scripts/ingest_mcic.py --midi_dir "../MCIC/MCIC DATA/MIDI FILES" --meta_csv "../MCIC/mcic_metadata.csv" --out_dir data/mcic --copy
+[    0.2s]     
+[    0.2s]     Parsing MIDI files from ../MCIC/MCIC DATA/MIDI FILES ...
+[    0.2s]       Found 116 cases, 116 complete pairs.
+[    0.2s]     
+[    0.2s]     Loading outcome metadata ...
+[    0.2s]       Metadata CSV headers: ['g', 'Case', 'Case Name', 'Complaining Work(Top) and Defending Work(Bottom)', 'Music Source', 'File ID', 'Decision', 'Reference', 'Parts', 'Summary of Decision (Summarized and Written by Casenote - a chatbot developed based on ChatGPT - https://chatgpt.com/g/g-NLr3Ykjvb-casenote )']
+[    0.2s]       Using: case_id='Case', outcome='Decision'
+[    0.2s]       Outcome distribution: {'Infringed': 32, 'Denied': 66, '-': 18}
+[    0.2s]     
+[    0.2s]     Copying MIDI files to data/mcic/midi ...
+[    0.2s]       Copied 232 files.
+[    0.2s]     
+[    0.2s]     Wrote 116 rows to data/mcic/labels.csv
+[    0.2s]     
+[    0.2s]     ==================================================
+[    0.2s]     MCIC ingest complete.
+[    0.2s]       labels.csv : data/mcic/labels.csv
+[    0.2s]       midi/      : data/mcic/midi (populated)
+[    0.2s]     
+[    0.2s]     Next steps:
+[    0.2s]       1. Export MCIC spreadsheet as CSV and re-run with --meta_csv
+[    0.2s]          to populate outcome labels.
+[    0.2s]       2. Run: python scripts/run_validation.py --labels data/mcic/labels.csv
+[    0.2s] $ python scripts/run_mcic_validation.py --labels data/mcic/labels.csv --out results/validation/mcic_validation.json --lcs_threshold 0.387 --jac_threshold 0.022
+[    2.0s]     
+[    2.0s]     Loading labels from data/mcic/labels.csv ...
+[    2.0s]       Usable pairs: 98 (Infringed=32, Denied=66)
+[    2.0s]       Thresholds: LCS>=0.387, Jaccard>=0.022
+[    2.0s]       Workers: 7
+[    2.0s]     
+[    2.0s]     Scoring 98 pairs ...
+[    5.4s]     /Users/jegal/Desktop/DuplicationDetection/venv/lib/python3.13/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (7.1.0)/charset_normalizer (3.4.2) doesn't match a supported version!
+[    5.4s]       warnings.warn(
+[    5.4s]     /Users/jegal/Desktop/DuplicationDetection/venv/lib/python3.13/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (7.1.0)/charset_normalizer (3.4.2) doesn't match a supported version!
+[    5.4s]       warnings.warn(
+[    5.5s]     /Users/jegal/Desktop/DuplicationDetection/venv/lib/python3.13/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (7.1.0)/charset_normalizer (3.4.2) doesn't match a supported version!
+[    5.5s]       warnings.warn(
+[    5.5s]     /Users/jegal/Desktop/DuplicationDetection/venv/lib/python3.13/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (7.1.0)/charset_normalizer (3.4.2) doesn't match a supported version!
+[    5.5s]       warnings.warn(
+[    5.5s]     /Users/jegal/Desktop/DuplicationDetection/venv/lib/python3.13/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (7.1.0)/charset_normalizer (3.4.2) doesn't match a supported version!
+[    5.5s]       warnings.warn(
+[    5.5s]     /Users/jegal/Desktop/DuplicationDetection/venv/lib/python3.13/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (7.1.0)/charset_normalizer (3.4.2) doesn't match a supported version!
+[    5.5s]       warnings.warn(
+[    5.5s]     /Users/jegal/Desktop/DuplicationDetection/venv/lib/python3.13/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (7.1.0)/charset_normalizer (3.4.2) doesn't match a supported version!
+[    5.5s]       warnings.warn(
+[    6.1s]       Done in 4.2s -- 0 errors
+[    6.1s]     
+[    6.1s]     ==============================================================
+[    6.1s]     MCIC Validation Results  (n=98, Inf=32, Den=66)
+[    6.1s]     ==============================================================
+[    6.1s]     Strategy               Prec    Rec     F1    Acc   TP   FP   FN   TN
+[    6.1s]     --------------------------------------------------------------
+[    6.1s]     Abs LCS (WAR/WAQ)     0.429  0.094  0.154  0.663    3    4   29   62
+[    6.1s]     Abs LCS (norm)        0.471  0.250  0.327  0.663    8    9   24   57
+[    6.1s]     Int LCS (WAR/WAQ)     0.571  0.125  0.205  0.684    4    3   28   63
+[    6.1s]     Int LCS (norm)        0.579  0.344  0.431  0.704   11    8   21   58
+[    6.1s]     Jaccard n=5           0.538  0.219  0.311  0.684    7    6   25   60
+[    6.1s]     Union (any)           0.500  0.250  0.333  0.673    8    8   24   58
+[    6.1s]     ==============================================================
+[    6.1s]     
+[    6.1s]     Transposition analysis:
+[    6.1s]       Infringed pairs caught by interval but NOT abs-pitch: 1
+[    6.1s]       Cases: ['109']
+[    6.1s]     
+[    6.1s]     Full results saved to results/validation/mcic_validation.json
+[    6.1s]     Per-pair scores saved to results/validation/mcic_validation.csv
+[    6.2s]   [ok] PASS MCIC OOD union accuracy: expected=0.6735 actual=0.6735 tol=+/-0.005
+[    6.2s]   [ok] PASS MCIC OOD union recall: expected=0.25 actual=0.25 tol=+/-0.01
+[    6.2s] $ python scripts/calibrate_mcic.py --scores results/validation/mcic_validation.csv --out results/validation/mcic_calibrated_thresholds.json
+[    6.3s]     Loading scores from results/validation/mcic_validation.csv ...
+[    6.3s]       Infringed: 32  Denied: 66
+[    6.3s]     
+[    6.3s]     ============================================================
+[    6.3s]     Pareto calibration (null=Denied, positive=Infringed)
+[    6.3s]     ============================================================
+[    6.3s]     
+[    6.3s]       lcs_abs (high):
+[    6.3s]         Best F1:       thr=0.0352  P=0.390  R=0.719  F1=0.505  Acc=0.541  TP=23  FP=36
+[    6.3s]         Best Accuracy: thr=0.4070  P=0.600  R=0.094  F1=0.162  Acc=0.684  TP=3  FP=2
+[    6.3s]         Best Recall:   thr=0.0000  P=0.327  R=1.000  F1=0.492  Acc=0.327  TP=32  FP=66
+[    6.3s]     
+[    6.3s]       lcs_int (high):
+[    6.3s]         Best F1:       thr=0.0251  P=0.353  R=0.938  F1=0.513  Acc=0.418  TP=30  FP=55
+[    6.3s]         Best Accuracy: thr=0.2639  P=0.625  R=0.312  F1=0.417  Acc=0.714  TP=10  FP=6
+[    6.3s]         Best Recall:   thr=0.0102  P=0.327  R=1.000  F1=0.492  Acc=0.327  TP=32  FP=66
+[    6.3s]     
+[    6.3s]       jaccard_n5 (high):
+[    6.3s]         Best F1:       thr=0.0000  P=0.327  R=1.000  F1=0.492  Acc=0.327  TP=32  FP=66
+[    6.3s]         Best Accuracy: thr=0.2312  P=0.800  R=0.125  F1=0.216  Acc=0.704  TP=4  FP=1
+[    6.3s]         Best Recall:   thr=0.0000  P=0.327  R=1.000  F1=0.492  Acc=0.327  TP=32  FP=66
+[    6.3s]     
+[    6.3s]     ============================================================
+[    6.3s]     SUMMARY -- recommended thresholds
+[    6.3s]     ============================================================
+[    6.3s]     Metric           Best-F1 thr   Best-Acc thr
+[    6.3s]     ------------------------------------------
+[    6.3s]     lcs_abs               0.0352         0.4070
+[    6.3s]     lcs_int               0.0251         0.2639
+[    6.3s]     jaccard_n5            0.0000         0.2312
+[    6.3s]     
+[    6.3s]     Re-run validation with calibrated thresholds:
+[    6.3s]       python scripts/run_mcic_validation.py \
+[    6.3s]           --labels        data/mcic/labels.csv \
+[    6.3s]           --out           results/validation/mcic_validation_calibrated.json \
+[    6.3s]           --lcs_threshold 0.0251 \
+[    6.3s]           --jac_threshold 0.0000
+[    6.3s]     
+[    6.3s]     Saved to results/validation/mcic_calibrated_thresholds.json
+[    6.4s] $ python scripts/run_mcic_validation.py --labels data/mcic/labels.csv --out results/validation/mcic_validation_calibrated_acc.json --lcs_threshold 0.2639 --jac_threshold 0.2312
+[    7.4s]     
+[    7.4s]     Loading labels from data/mcic/labels.csv ...
+[    7.4s]       Usable pairs: 98 (Infringed=32, Denied=66)
+[    7.4s]       Thresholds: LCS>=0.2639, Jaccard>=0.2312
+[    7.4s]       Workers: 7
+[    7.4s]     
+[    7.4s]     Scoring 98 pairs ...
+[    9.6s]     /Users/jegal/Desktop/DuplicationDetection/venv/lib/python3.13/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (7.1.0)/charset_normalizer (3.4.2) doesn't match a supported version!
+[    9.6s]       warnings.warn(
+[    9.7s]     /Users/jegal/Desktop/DuplicationDetection/venv/lib/python3.13/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (7.1.0)/charset_normalizer (3.4.2) doesn't match a supported version!
+[    9.7s]       warnings.warn(
+[    9.7s]     /Users/jegal/Desktop/DuplicationDetection/venv/lib/python3.13/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (7.1.0)/charset_normalizer (3.4.2) doesn't match a supported version!
+[    9.7s]       warnings.warn(
+[    9.7s]     /Users/jegal/Desktop/DuplicationDetection/venv/lib/python3.13/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (7.1.0)/charset_normalizer (3.4.2) doesn't match a supported version!
+[    9.7s]       warnings.warn(
+[    9.7s]     /Users/jegal/Desktop/DuplicationDetection/venv/lib/python3.13/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (7.1.0)/charset_normalizer (3.4.2) doesn't match a supported version!
+[    9.7s]       warnings.warn(
+[    9.9s]     /Users/jegal/Desktop/DuplicationDetection/venv/lib/python3.13/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (7.1.0)/charset_normalizer (3.4.2) doesn't match a supported version!
+[    9.9s]       warnings.warn(
+[    9.9s]     /Users/jegal/Desktop/DuplicationDetection/venv/lib/python3.13/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (7.1.0)/charset_normalizer (3.4.2) doesn't match a supported version!
+[    9.9s]       warnings.warn(
+[   10.3s]       Done in 3.0s -- 0 errors
+[   10.3s]     
+[   10.3s]     ==============================================================
+[   10.3s]     MCIC Validation Results  (n=98, Inf=32, Den=66)
+[   10.3s]     ==============================================================
+[   10.3s]     Strategy               Prec    Rec     F1    Acc   TP   FP   FN   TN
+[   10.3s]     --------------------------------------------------------------
+[   10.3s]     Abs LCS (WAR/WAQ)     0.455  0.156  0.233  0.663    5    6   27   60
+[   10.3s]     Abs LCS (norm)        0.429  0.375  0.400  0.633   12   16   20   50
+[   10.3s]     Int LCS (WAR/WAQ)     0.625  0.312  0.417  0.714   10    6   22   60
+[   10.3s]     Int LCS (norm)        0.370  0.531  0.436  0.551   17   29   15   37
+[   10.3s]     Jaccard n=5           0.800  0.125  0.216  0.704    4    1   28   65
+[   10.3s]     Union (any)           0.526  0.312  0.392  0.684   10    9   22   57
+[   10.3s]     ==============================================================
+[   10.3s]     
+[   10.3s]     Transposition analysis:
+[   10.3s]       Infringed pairs caught by interval but NOT abs-pitch: 5
+[   10.3s]       Cases: ['008', '026', '039', '068', '109']
+[   10.3s]     
+[   10.3s]     Full results saved to results/validation/mcic_validation_calibrated_acc.json
+[   10.3s]     Per-pair scores saved to results/validation/mcic_validation_calibrated_acc.csv
+[   10.4s]   [ok] PASS MCIC calibrated int accuracy: expected=0.714 actual=0.7143 tol=+/-0.005
+[   10.4s]   [ok] PASS MCIC calibrated int F1: expected=0.417 actual=0.4167 tol=+/-0.01
+[   10.4s] 
+=======================================================
+[   10.4s] STAGE 5/7: Journal metrics (AUC, kappa, GCC, dilution)
+[   10.4s]   Expected duration: ~30 sec
+[   10.4s] =======================================================
+[   10.4s] $ python scripts/compute_journal_metrics.py --mcic_csv results/validation/mcic_validation.csv --agg_json results/agg_summary.json --agg_int  results/agg_summary_intervals.json --out      results/journal_metrics.json
+[   11.4s]     Loading data ...
+[   11.4s]     1. Computing ROC AUC on MCIC ...
+[   11.4s]        absolute_lcs         AUC = 0.5857
+[   11.4s]        interval_lcs         AUC = 0.5876
+[   11.4s]        jaccard_n5           AUC = 0.5618
+[   11.4s]        max_score            AUC = 0.6077
+[   11.4s]     2. Computing Cohen's kappa ...
+[   11.4s]        abs_vs_int           kappa = 0.6923  (substantial (0.6-0.8))
+[   11.4s]        abs_vs_jac           kappa = 0.5591  (moderate (0.4-0.6))
+[   11.4s]        int_vs_jac           kappa = 0.4488  (moderate (0.4-0.6))
+[   11.4s]     3. Computing interval lift ...
+[   11.4s]        LLM x LLM            lift = 67.6%
+[   11.4s]        LLM x Duped          lift = 208.2%
+[   11.4s]        LLM x Train          lift = 145.4%
+[   11.4s]        Human x Human        lift = 1.6%
+[   11.4s]     4. Computing dilution formula ...
+[   11.4s]        Expected 6.0x signal ratio, observed 11.49x
+[   11.4s]     5. Computing GCC statistics ...
+[   11.4s]        GCC+ runs: 9  mean=0.07286
+[   11.4s]        GCC- runs: 22  mean=0.01610
+[   11.4s]        Separation: 4.53x
+[   11.4s]     6. WAR/WAQ justification ...
+[   11.4s]     
+[   11.4s]     All results saved to results/journal_metrics.json
+[   11.4s]     
+[   11.4s]     =======================================================
+[   11.4s]     JOURNAL METRICS SUMMARY
+[   11.4s]     =======================================================
+[   11.4s]     
+[   11.4s]     ROC AUC on MCIC (n=98):
+[   11.4s]       absolute_lcs         0.5857
+[   11.4s]       interval_lcs         0.5876
+[   11.4s]       jaccard_n5           0.5618
+[   11.4s]       max_score            0.6077
+[   11.4s]     
+[   11.4s]     Cohen's kappa (MCIC, calibrated thresholds):
+[   11.4s]       abs_vs_int           kappa=0.692  substantial (0.6-0.8)
+[   11.4s]       abs_vs_jac           kappa=0.559  moderate (0.4-0.6)
+[   11.4s]       int_vs_jac           kappa=0.449  moderate (0.4-0.6)
+[   11.4s]     
+[   11.4s]     Interval lift criterion:
+[   11.4s]       HxH null lift:      1.6%
+[   11.4s]       Recommended theta_lift: 0.5
+[   11.4s]     
+[   11.4s]     Dilution formula:
+[   11.4s]       Predicted ratio:    6.0x
+[   11.4s]       Observed ratio:     11.49x
+[   11.4s]     
+[   11.4s]     GCC:
+[   11.4s]       Separation ratio:   4.53x
+[   11.4s]       Definition: GCC(R) = 1 if mean_within_run_LCS(R) >= T_gcc, else 0. T_gcc = 0.05 (163x HxH null mean).
+[   11.5s]   [ok] PASS MCIC ROC AUC ensemble: expected=0.6077 actual=0.6077 tol=+/-0.005
+[   11.5s]   [ok] PASS MCIC ROC AUC interval: expected=0.5876 actual=0.5876 tol=+/-0.005
+[   11.5s]   [ok] PASS Cohen's kappa abs vs int: expected=0.692 actual=0.6923 tol=+/-0.01
+[   11.5s]   [ok] PASS Dilution observed ratio: expected=11.49 actual=11.49 tol=+/-0.5
+[   11.5s]   [ok] PASS GCC+ run count: expected=9 actual=9 tol=+/-0
+[   11.5s]   [ok] PASS GCC+ mean LCS: expected=0.07286 actual=0.07286 tol=+/-0.002
+[   11.5s]   [ok] PASS GCC- mean LCS: expected=0.0161 actual=0.0161 tol=+/-0.002
+[   11.5s]   [ok] PASS GCC separation ratio: expected=4.53 actual=4.53 tol=+/-0.1
+[   11.5s] 
+=======================================================
+[   11.5s] STAGE 6/7: Composer models + visualization
+[   11.5s]   Expected duration: ~5 min (cache warm) / ~20 min (cold)
+[   11.5s] =======================================================
+[   11.5s] $ python scripts/build_composer_model.py --maestro_root ../maestro-v3.0.0 --out results/composer/composer_model_5.json --composers Bach,Beethoven,Chopin,Liszt,Schubert --workers 2
+[   12.6s]     
+[   12.6s]     MAESTRO root:  ../maestro-v3.0.0
+[   12.6s]     Token mode:    absolute
+[   12.6s]     Min pieces:    30
+[   12.6s]     Test fraction: 0.2
+[   12.6s]     Restricting to 5 requested composers: ['Franz Liszt', 'Franz Schubert', 'Frédéric Chopin', 'Johann Sebastian Bach', 'Ludwig van Beethoven']
+[   12.6s]     
+[   12.6s]     Valid composers: 5
+[   12.6s]     Valid pieces:    809
+[   12.6s]     
+[   12.6s]     Composer distribution:
+[   12.6s]        201  Frédéric Chopin
+[   12.6s]        186  Franz Schubert
+[   12.6s]        146  Ludwig van Beethoven
+[   12.6s]        145  Johann Sebastian Bach
+[   12.6s]        131  Franz Liszt
+[   12.6s]     
+[   12.6s]     Train pieces: 648
+[   12.6s]     Test pieces:  161
+[   12.6s]     
+[   12.6s]     Tokenizing 809 pieces with 2 workers ...
+[   12.6s]     
+[   13.9s]     Tokenizing:   0%|          | 0/809 [00:00<?, ?piece/s]
+[   14.0s]     Tokenizing:   0%|          | 1/809 [00:01<17:18,  1.28s/piece]
+[   14.1s]     Tokenizing:   1%|          | 8/809 [00:01<01:45,  7.59piece/s]
+[   14.2s]     Tokenizing:   3%|▎         | 25/809 [00:01<00:28, 27.56piece/s]
+[   14.3s]     Tokenizing:   4%|▍         | 35/809 [00:01<00:21, 36.82piece/s]
+[   14.5s]     Tokenizing:   5%|▌         | 44/809 [00:01<00:16, 45.67piece/s]
+[   14.6s]     Tokenizing:   7%|▋         | 58/809 [00:01<00:12, 61.30piece/s]
+[   14.7s]     Tokenizing:   8%|▊         | 68/809 [00:01<00:11, 64.03piece/s]
+[   14.8s]     Tokenizing:  10%|▉         | 79/809 [00:02<00:10, 71.73piece/s]
+[   14.9s]     Tokenizing:  11%|█         | 89/809 [00:02<00:10, 71.93piece/s]
+[   15.1s]     Tokenizing:  12%|█▏        | 98/809 [00:02<00:09, 75.24piece/s]
+[   15.2s]     Tokenizing:  15%|█▍        | 119/809 [00:02<00:06, 108.03piece/s]
+[   15.3s]     Tokenizing:  16%|█▋        | 132/809 [00:02<00:06, 108.09piece/s]
+[   15.4s]     Tokenizing:  18%|█▊        | 144/809 [00:02<00:06, 99.83piece/s]
+[   15.5s]     Tokenizing:  22%|██▏       | 178/809 [00:02<00:03, 159.73piece/s]
+[   15.6s]     Tokenizing:  25%|██▍       | 199/809 [00:02<00:03, 165.67piece/s]
+[   15.8s]     Tokenizing:  27%|██▋       | 218/809 [00:03<00:03, 167.17piece/s]
+[   15.9s]     Tokenizing:  29%|██▉       | 236/809 [00:03<00:04, 140.62piece/s]
+[   16.1s]     Tokenizing:  31%|███       | 252/809 [00:03<00:04, 138.20piece/s]
+[   16.3s]     Tokenizing:  33%|███▎      | 267/809 [00:03<00:04, 124.54piece/s]
+[   16.5s]     Tokenizing:  35%|███▍      | 281/809 [00:03<00:05, 99.41piece/s]
+[   16.6s]     Tokenizing:  36%|███▌      | 293/809 [00:03<00:05, 91.57piece/s]
+[   16.7s]     Tokenizing:  37%|███▋      | 303/809 [00:04<00:05, 88.09piece/s]
+[   16.9s]     Tokenizing:  39%|███▉      | 315/809 [00:04<00:05, 93.47piece/s]
+[   17.0s]     Tokenizing:  40%|████      | 325/809 [00:04<00:05, 84.55piece/s]
+[   17.1s]     Tokenizing:  41%|████▏     | 334/809 [00:04<00:06, 78.45piece/s]
+[   17.2s]     Tokenizing:  44%|████▎     | 353/809 [00:04<00:04, 104.16piece/s]
+[   17.3s]     Tokenizing:  46%|████▌     | 369/809 [00:04<00:03, 115.39piece/s]
+[   17.5s]     Tokenizing:  57%|█████▋    | 463/809 [00:04<00:01, 327.16piece/s]
+[   17.8s]     Tokenizing:  62%|██████▏   | 500/809 [00:04<00:01, 264.58piece/s]
+[   17.9s]     Tokenizing:  66%|██████▌   | 532/809 [00:05<00:01, 209.32piece/s]
+[   18.0s]     Tokenizing:  69%|██████▉   | 558/809 [00:05<00:01, 211.28piece/s]
+[   18.1s]     Tokenizing:  73%|███████▎  | 587/809 [00:05<00:00, 226.59piece/s]
+[   18.2s]     Tokenizing:  76%|███████▌  | 614/809 [00:05<00:00, 234.72piece/s]
+[   18.3s]     Tokenizing:  80%|████████  | 650/809 [00:05<00:00, 265.18piece/s]
+[   18.4s]     Tokenizing:  84%|████████▍ | 679/809 [00:05<00:00, 243.85piece/s]
+[   18.6s]     Tokenizing:  88%|████████▊ | 711/809 [00:05<00:00, 259.85piece/s]
+[   18.7s]     Tokenizing:  91%|█████████▏| 739/809 [00:05<00:00, 259.37piece/s]
+[   18.8s]     Tokenizing:  95%|█████████▍| 766/809 [00:06<00:00, 261.19piece/s]
+[   18.8s]     Tokenizing:  99%|█████████▉| 803/809 [00:06<00:00, 291.08piece/s]
+[   18.8s]     Tokenizing: 100%|██████████| 809/809 [00:06<00:00, 130.71piece/s]
+[  145.1s]       Tokenized: 809  Empty/failed: 0
+[  145.2s]     
+[  145.2s]     Building TF-IDF composer centroids ...
+[  145.2s]     
+[  145.2s]     Evaluating on test set ...
+[  145.2s]     
+[  145.2s]     ==================================================
+[  145.2s]     COMPOSER CLASSIFICATION RESULTS (absolute tokens)
+[  145.2s]     ==================================================
+[  145.2s]     Top-1 accuracy: 0.516  (83/161)
+[  145.2s]     Top-3 accuracy: 0.826  (133/161)
+[  145.2s]     Balanced accuracy: 0.525
+[  145.2s]     
+[  145.2s]     Per-composer Top-1:
+[  145.2s]       0.724  21/29  Johann Sebastian Bach
+[  145.2s]       0.595  22/37  Franz Schubert
+[  145.2s]       0.500  13/26  Franz Liszt
+[  145.2s]       0.483  14/29  Ludwig van Beethoven
+[  145.2s]       0.325  13/40  Frédéric Chopin
+[  145.2s]     
+[  145.2s]     Model saved to results/composer/composer_model_5.json
+[  145.2s]     Next: python scripts/visualize_composer_space.py --model results/composer/composer_model_5.json
+[  145.8s]   [ok] PASS 5-composer abs Top-1: expected=0.516 actual=0.5155 tol=+/-0.01
+[  145.8s]   [ok] PASS 5-composer abs Top-3: expected=0.826 actual=0.8261 tol=+/-0.01
+[  145.8s] $ python scripts/build_composer_model.py --maestro_root ../maestro-v3.0.0 --out results/composer/composer_model_5_interval.json --composers Bach,Beethoven,Chopin,Liszt,Schubert --use_interval --workers 2
+[  147.3s]     
+[  147.3s]     MAESTRO root:  ../maestro-v3.0.0
+[  147.3s]     Token mode:    interval
+[  147.3s]     Min pieces:    30
+[  147.3s]     Test fraction: 0.2
+[  147.3s]     Restricting to 5 requested composers: ['Franz Liszt', 'Franz Schubert', 'Frédéric Chopin', 'Johann Sebastian Bach', 'Ludwig van Beethoven']
+[  147.3s]     
+[  147.3s]     Valid composers: 5
+[  147.3s]     Valid pieces:    809
+[  147.3s]     
+[  147.3s]     Composer distribution:
+[  147.3s]        201  Frédéric Chopin
+[  147.3s]        186  Franz Schubert
+[  147.3s]        146  Ludwig van Beethoven
+[  147.3s]        145  Johann Sebastian Bach
+[  147.3s]        131  Franz Liszt
+[  147.3s]     
+[  147.3s]     Train pieces: 648
+[  147.3s]     Test pieces:  161
+[  147.3s]     
+[  147.3s]     Tokenizing 809 pieces with 2 workers ...
+[  147.3s]     
+[  148.6s]     Tokenizing:   0%|          | 0/809 [00:00<?, ?piece/s]
+[  148.7s]     Tokenizing:   0%|          | 1/809 [00:01<16:12,  1.20s/piece]
+[  148.8s]     Tokenizing:   8%|▊         | 66/809 [00:01<00:10, 69.67piece/s]
+[  148.9s]     Tokenizing:  20%|█▉        | 160/809 [00:01<00:03, 184.11piece/s]
+[  149.0s]     Tokenizing:  28%|██▊       | 224/809 [00:01<00:02, 253.25piece/s]
+[  149.1s]     Tokenizing:  35%|███▌      | 286/809 [00:01<00:01, 290.68piece/s]
+[  149.3s]     Tokenizing:  42%|████▏     | 340/809 [00:01<00:01, 320.62piece/s]
+[  149.4s]     Tokenizing:  58%|█████▊    | 471/809 [00:01<00:00, 517.18piece/s]
+[  149.5s]     Tokenizing:  67%|██████▋   | 545/809 [00:02<00:00, 476.09piece/s]
+[  149.7s]     Tokenizing:  82%|████████▏ | 665/809 [00:02<00:00, 622.20piece/s]
+[  150.0s]     Tokenizing:  92%|█████████▏| 744/809 [00:02<00:00, 545.70piece/s]
+[  150.0s]     Tokenizing: 100%|██████████| 809/809 [00:02<00:00, 309.24piece/s]
+[  151.6s]       Tokenized: 809  Empty/failed: 0
+[  151.6s]     
+[  151.6s]     Building TF-IDF composer centroids ...
+[  151.6s]     
+[  151.6s]     Evaluating on test set ...
+[  151.6s]     
+[  151.6s]     ==================================================
+[  151.6s]     COMPOSER CLASSIFICATION RESULTS (interval tokens)
+[  151.6s]     ==================================================
+[  151.6s]     Top-1 accuracy: 0.516  (83/161)
+[  151.6s]     Top-3 accuracy: 0.826  (133/161)
+[  151.6s]     Balanced accuracy: 0.527
+[  151.6s]     
+[  151.6s]     Per-composer Top-1:
+[  151.6s]       0.759  22/29  Johann Sebastian Bach
+[  151.6s]       0.577  15/26  Franz Liszt
+[  151.6s]       0.459  17/37  Franz Schubert
+[  151.6s]       0.425  17/40  Frédéric Chopin
+[  151.6s]       0.414  12/29  Ludwig van Beethoven
+[  151.6s]     
+[  151.6s]     Model saved to results/composer/composer_model_5_interval.json
+[  151.6s]     Next: python scripts/visualize_composer_space.py --model results/composer/composer_model_5_interval.json
+[  151.8s]   [ok] PASS 5-composer int Top-1: expected=0.516 actual=0.5155 tol=+/-0.01
+[  151.8s]   [ok] PASS 5-composer int Top-3: expected=0.826 actual=0.8261 tol=+/-0.01
+[  151.8s] $ python scripts/visualize_composer_space.py --model results/composer/composer_model_5.json --out_dir results/composer/figures_5 --n_pieces 30
+[  163.5s]     /Users/jegal/Desktop/DuplicationDetection/venv/lib/python3.13/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+[  163.5s]       warn(
+[  167.7s]     Loading model from results/composer/composer_model_5.json ...
+[  167.7s]     Building piece matrix (30 per composer) ...
+[  167.7s]       Matrix shape: (150, 185300)
+[  167.7s]     Running PCA ...
+[  167.7s]       Saved: results/composer/figures_5/composer_space_pca.png
+[  167.7s]     Running UMAP ...
+[  167.7s]       Saved: results/composer/figures_5/composer_space_umap.png
+[  167.7s]     
+[  167.7s]     All figures saved to results/composer/figures_5/
+[  167.7s]     Classification accuracy: Top-1=0.515  Top-3=0.826
+[  168.1s] $ python scripts/visualize_composer_space.py --model results/composer/composer_model_5_interval.json --out_dir results/composer/figures_5_interval --n_pieces 30
+[  174.8s]     /Users/jegal/Desktop/DuplicationDetection/venv/lib/python3.13/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+[  174.9s]       warn(
+[  178.5s]     Loading model from results/composer/composer_model_5_interval.json ...
+[  178.5s]     Building piece matrix (30 per composer) ...
+[  178.5s]       Matrix shape: (150, 1342)
+[  178.5s]     Running PCA ...
+[  178.5s]       Saved: results/composer/figures_5_interval/composer_space_pca.png
+[  178.5s]     Running UMAP ...
+[  178.5s]       Saved: results/composer/figures_5_interval/composer_space_umap.png
+[  178.5s]     
+[  178.5s]     All figures saved to results/composer/figures_5_interval/
+[  178.5s]     Classification accuracy: Top-1=0.515  Top-3=0.826
+[  178.9s] $ python scripts/plot_lcs_profile.py --piece_a "data/llm_output/our_model_R18_C93_4_tracks_3_4_sig_A_key_8218.mid" --piece_b "data/llm_output/our_model_R6_C34_4_tracks_2_3_sig_E_key_4110.mid" --out results/figures/appendix_c_lcs_profile.png --window 200 --step 5
+[  180.6s]     /Users/jegal/Desktop/DuplicationDetection/venv/lib/python3.13/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (7.1.0)/charset_normalizer (3.4.2) doesn't match a supported version!
+[  180.6s]       warnings.warn(
+[  224.3s]     Loading piece A: our_model_R18_C93_4_tracks_3_4_sig_A_key_8218.mid
+[  224.3s]       1836 absolute tokens
+[  224.3s]     Loading piece B: our_model_R6_C34_4_tracks_2_3_sig_E_key_4110.mid
+[  224.3s]       655 absolute tokens
+[  224.3s]     
+[  224.3s]     Computing absolute-pitch LCS profile (window=200, step=5) ...
+[  224.3s]     Computing interval LCS profile ...
+[  224.3s]     
+[  224.3s]       Peak abs LCS: 0.3900 at token 130
+[  224.3s]       Peak int LCS: 0.6300 at token 445
+[  224.3s]       Lift: 61.5%
+[  224.3s]     
+[  224.3s]     Saved: results/figures/appendix_c_lcs_profile.png
+[  224.5s] 
+=======================================================
+[  224.5s] STAGE 7/7: Verification report
+[  224.5s] =======================================================
+[  224.5s] 
+  PASSED: 16/16
+[  224.5s]   FAILED: 0/16
+[  226.0s] 
+  Report saved to results/reproduce_report.txt
+[  227.1s] 
+Summary saved to results/reproduce_summary.json
+[  227.1s] 
+Total elapsed: 3.8 minutes
