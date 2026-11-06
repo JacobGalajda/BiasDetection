@@ -1,0 +1,23 @@
+# Data (often large — use Git LFS or keep local only)
+data/
+
+papers/
+
+# Results
+results/report.json
+results/figures/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+dist/
+build/
+
+# Notebooks checkpoints
+notebooks/.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
