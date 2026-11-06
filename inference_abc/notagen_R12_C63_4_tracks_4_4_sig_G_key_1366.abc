@@ -1,0 +1,30 @@
+X:1
+T:Title
+%%score 1 2 3 4
+L:1/8
+Q:1/4=100
+M:4/4
+K:G
+V:1 treble nm="treble"
+V:2 treble nm="treble"
+V:3 alto nm="bass"
+V:4 bass nm="bass"
+V:1
+"^Andante" d2 Bc d2 g2 | (fe)(dc) c2 B2 | A2 (Bc) B2 (dc) | B2 (dc) B2 A2 | d2 Bc d2 g2 | %5
+ (fe)(d^c) c2 d2 | (ef)(ga) (ba)(gf) | (fe)(d^c) d4 :: d2 cB c2 c2 |{d} c2 BA B2 B2 | %10
+ e2 d2 ^c2 d2 | (fe)(d^c) d4 | d2 (cB) c2 a2 |{a} g2 (fe){e} f2 g2 | (dB)(cA) B2 z c | %15
+ B2 (AG) G4 :| %16
+V:2
+ B2 GA B2 B2 | (dc)(BA) A2 G2 | F2 (GA) G2 (BA) | G2 (BA) G2 F2 | B2 GA B2 B2 | (AG)(FE) E2 F2 | %6
+ (GA)(B^c) (dc)(BA) | (AG)(FE) F4 :: B2 AG A2 A2 |{B} A2 GF G2 G2 | B2 B2 A2 ^G2 | (AG)(FE) F4 | %12
+ B2 (AG) A2 c2 |{c} B2 (AG){G} A2 B2 | (BG)(AF) G2 z A | G2 (FG) G4 :| %16
+V:3
+ G2 GG G2 D2 | D2 D2 D2 D2 | D2 D2 D2 D2 | D2 D2 D4 | G2 GG G2 D2 | D2 A2 A2 A2 | A2 A2 D2 G2 | %7
+ A2 A2 A4 :: z4 A2 D2 | D2 D2 D2 G2 | G2 F2 E2 D2 | ^C2 A2 A2 z2 | z4 D2 F,2 | G,2 D2 D2 D2 | %14
+ D2 D2 D2 z E | D2 C2 B,4 :| %16
+V:4
+ G,2 G,G, G,2 G,2 | G,2 G,2 G,2 G,2 | D,2 D,2 G,2 C,2 | G,2 B,,2 D,4 | G,2 G,G, G,2 G,2 | %5
+ A,2 A,2 D,2 D,2 | D,2 D,2 G,2 G,2 | A,2 A,2 D,4 :: z4 F,2 D,2 | G,2 D,2 G,2 G,2 | %10
+ G,2 G,2 A,2 B,2 | A,2 A,2 D,2 z2 | z4 D,2 D,2 | G,2 G,2 D,2 G,2 | G,2 A,2 B,2 z C, | %15
+ D,2 D,2 G,4 :| %16
+

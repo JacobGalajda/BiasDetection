@@ -1,0 +1,59 @@
+X:1
+T:Title
+%%score 1 2 3 4
+L:1/8
+Q:1/4=100
+M:3/4
+K:G
+V:1 treble nm="violin 1"
+V:2 treble nm="violin 2"
+V:3 alto nm="viola"
+V:4 bass nm="cello"
+V:1
+"^II. Menuetto"!f!"^Trio" (G4 B>G) | (G2 F2) (c>A) | (A2 G2) (d>B) | .e2 .f2 .g2 | (gfed^c=c) | %5
+ B2 T^c3 (B/c/) | .d2 .e2 .f2 | (gfed^c=c) | B2 T^c3 (B/c/) | .d2 .D2 z2 ::!p! (d4 g>e) | %11
+ (d2 c2 B2) | (A4 d>B) | (A2 G2 F2) |!f! (G4 B>G) | (G2 F2) (c>A) | (A2 G2) (d>B) | .e2 .f2 .g2 | %18
+ (gfed^c=c) | B2 T^c3 (B/c/) | .d2 .e2 .f2 | (gfed^c=c) | B2 T^c3 (B/c/) | .d2 .D2 z2 ::!p! (d6 | %25
+ ^c6) | (c6 | B6) | .c2 .d2 .e2 | .A2 .B2 .c2 | (B2 d2) .F2 | .G2 z2 z2 :|[K:Bb][M:3/4]"^Trio" z6 | %33
+ z6 | z6 | z6 |!p! g6- | (g2 a2 ^f2) | g6- | (g2 a2 ^f2) | (a2 g2 =e2) | (g2 ^f2 d2) | %42
+ (f2 e2 ^c2) | (=e2 d2 B2) | (d2 c2 A2) | (c2 B2 G2) | (B2 _A2 ^F2) | G2 z2 z2 |: z6 |!f! (^f6 | %50
+ g2) z2 z2 | (d'6 | ^c'2) z2 z2 | (d'6 | ^c'2) z2 z2 | (d'6 | ^c'2) z2 z2 | (c'6 | =b2) z2 z2 | %59
+ (b6 | a2) z2 z2 | (_a6 | g2) z2 z2 | (_g6 | f2) z2 z2 | (_f6 | e2) z2 z2 | (d6 | e2) z2 z2 | (d6 | %70
+ e2) z2 z2 | (d6 | e2) z2 z2 | (_d6 | c2) z2 z2 | (_d6 | c2) z2 z2 | (_d6 | c2) z2 z2 | (_d6 | %80
+ c2) z2 z2 | (_d6 | c2) z2 z2 | (_d6 | c2) z2 z2 | (_d6 | c2) z2 z2 | (_d6 | c2) z2 z2 | (_d6 | %90
+ c2) z2 z2 | !fermata!z6 :| %92
+V:2
+!f! (B,DB,DB,D) | (CDCDCD) | (DGDGDG) | .G2 .A2 .B2 | A2 z2 z2 | z2 (G2 E2) | .F2 .G2 .A2 | %7
+ A2 z2 z2 | z2 (G2 E2) | .F2 .D2 z2 ::!p! (B6 | A4 G2) | (F6 | E4 D2) |!f! (B,DB,DB,D) | (CDCDCD) | %16
+ (DGDGDG) | .G2 .A2 .B2 | A2 z2 z2 | z2 (G2 E2) | .F2 .G2 .A2 | A2 z2 z2 | z2 (G2 E2) | %23
+ .F2 .D2 z2 ::!p! (_B6 | A6) | (A6 | G6) | .G2 .B2 .c2 | .F2 .G2 .A2 | (G2 B,2) .C2 | .B,2 z2 z2 :| %32
+[K:Bb][M:3/4]!p!"^Trio" (B6 | A2) z2 z2 | (c6 | B2) z2 z2 | (^c6 | d2) z2 z2 | (^c6 | d2) z2 z2 | %40
+ (B6 | A2) z2 z2 | (G6 | ^F2) z2 z2 | (E6 | D2) z2 z2 | (C6 | B,2) z2 z2 |:!f! (d6 | c6) | (B6 | %51
+ A2) z2 z2 | (g6 | ^f2) z2 z2 | (g6 | ^f2) z2 z2 | (g6 | ^f2) z2 z2 | (f6 | =e2) z2 z2 | (e6 | %61
+ d2) z2 z2 | (_d6 | c2) z2 z2 | (_c6 | B2) z2 z2 | (__B6 | _A2) z2 z2 | (_G6 | _A2) z2 z2 | (_G6 | %71
+ _A2) z2 z2 | (_G6 | G2) z2 z2 | (_G6 | G2) z2 z2 | (_G6 | G2) z2 z2 | (_G6 | G2) z2 z2 | (_G6 | %81
+ G2) z2 z2 | (_G6 | G2) z2 z2 | (_G6 | G2) z2 z2 | (_G6 | G2) z2 z2 | (_G6 | G2) z2 z2 | (_G6 | %91
+ G2) z2 !fermata!z2 :| %92
+V:3
+!f! (D,6 | D,6) | D,6 | .C,2 .C2 .B,2 | D2 z2 z2 | z2 (E2 G2) | .F2 .E2 .D2 | D2 z2 z2 | %8
+ z2 (E2 G2) | .F2 .D2 z2 ::!p! (G6 | F4 G2) | (D6 | ^C4 D2) |!f! (D,6 | D,6) | D,6 | %17
+ .C,2 .C2 .B,2 | D2 z2 z2 | z2 (E2 G2) | .F2 .E2 .D2 | D2 z2 z2 | z2 (E2 G2) | .F2 .D2 z2 :: %24
+!p! (G6 | G6) | (F6 | =F6) | .E2 .D2 .C2 | .D2 .B,2 .A,2 | (B,2 D2) .D2 | .G,2 z2 z2 :| %32
+[K:Bb][M:3/4]!p!"^Trio" (G6 | ^F2) z2 z2 | (A6 | G2) z2 z2 | (B6 | A2) z2 z2 | (B6 | A2) z2 z2 | %40
+ (^C6 | D2) z2 z2 | (A,6 | D2) z2 z2 | (^F,6 | G,2) z2 z2 | (D,6 | G,2) z2 z2 |:!f! (B6 | A6) | %50
+ (G6 | ^F2) z2 z2 | (e6 | d2) z2 z2 | (e6 | d2) z2 z2 | (e6 | d2) z2 z2 | (_d6 | c2) z2 z2 | (_c6 | %61
+ B2) z2 z2 | (B6 | _A2) z2 z2 | (_A6 | _G2) z2 z2 | (_G6 | F2) z2 z2 | (E6 | F2) z2 z2 | (E6 | %71
+ F2) z2 z2 | (E6 | =E2) z2 z2 | (=E6 | =E2) z2 z2 | (=E6 | =E2) z2 z2 | (=E6 | =E2) z2 z2 | (=E6 | %81
+ =E2) z2 z2 | (=E6 | =E2) z2 z2 | (=E6 | =E2) z2 z2 | (=E6 | =E2) z2 z2 | (=E6 | =E2) z2 z2 | %90
+ (=E6 | =E2) z2 !fermata!z2 :| %92
+V:4
+!f! G,,2 G,2 G,2 | A,,2 A,2 A,2 | B,,2 B,2 B,2 | .C2 .A,2 .G,2 | D2 z2 z2 | (G,2 A,2 A,,2) | %6
+ D,2 z2 z2 | D,2 z2 z2 | (G,2 A,2 A,,2) | .D,2 .D,,2 z2 :: z6 | z6 | z6 | z6 |!f! G,,2 G,2 G,2 | %15
+ A,,2 A,2 A,2 | B,,2 B,2 B,2 | .C2 .A,2 .G,2 | D2 z2 z2 | (G,2 A,2 A,,2) | D,2 z2 z2 | D,2 z2 z2 | %22
+ (G,2 A,2 A,,2) | .D,2 .D,,2 z2 :: z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 :| %32
+[K:Bb][M:3/4]!p!"^Text" G,2 z2 z2 | A,2 z2 z2 | ^F,2 z2 z2 | G,2 z2 z2 | E,2 z2 z2 | D,2 z2 z2 | %38
+ E,2 z2 z2 | D,2 z2 z2 | D,6- | D,2 z2 z2 | D,6- | D,2 z2 z2 | G,,6- | G,,2 z2 z2 | G,,6- | %47
+ G,,2 z2 z2 |: z6 | z6 |!f! (^C6 | D2) z2 z2 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | %62
+ z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | %81
+ z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | !fermata!z6 :| %92
+

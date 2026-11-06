@@ -1,0 +1,36 @@
+X:1
+T:Title
+%%score 1 2 3 4
+L:1/8
+Q:1/4=100
+M:3/4
+K:C
+V:1 treble nm="treble"
+V:2 treble nm="treble"
+V:3 alto nm="bass"
+V:4 bass nm="bass"
+V:1
+"^Larghetto"!p! e2 d2 z c |!<(! ^c2!<)!!>(! d4!>)! | G3/2 A/ B2 c2 | d2 A2 z A |!<(! (A2!<)! d4-) | %5
+!>(! d2!>)! G2 z2 |!f! e2 d2 z3/2 g/ | g4!p! c2- | c2 d2 e2 | f2 e2 d2 | (G2 c2) B2 | d4 c2 || %12
+"^Allegretto" z6 |!p! d2 B G c ^F | G4 z2 | d2 B G c ^F | G2!f! e2 d2 | ^c3 c !fermata!g2 | %18
+ f2 z2 z2 |!p! d2 c2 B2 | _B3 B d2 | g2 z2 z2 | (c4 d2) | e4 z2 |!ff! e3 e e2 | f3 f f2 | g6 | %27
+!pp! d4 z2 | !fermata!c6 |] %29
+V:2
+!p! c2 B2 z G |!<(! G2!<)!!>(! G4!>)! | G3/2 G/ G2 G2 | A2 F2 z G |!<(! F4!<)! ^F2 | %5
+!>(! G2!>)! D2 z2 |!f! c2 B2 z3/2 B/ | B4 z2 |!p! G3/2 G/ G2 G2 | F2 G2 A2 | (E2 G2) G2 | B4 G2 || %12
+ z6 |!p! B2 G D A D | G4 z2 | B2 G D A D | G2!f! G2 G2 | G3 G !fermata!_B2 | A2 z2 z2 | %19
+!p! F2 F2 F2 | F3 F F2 | F2 z2 z2 | G6 | G4 z2 |!ff! c3 c c2 | c3 c c2 | c6 |!pp! G4 z2 | %28
+ !fermata!E6 |] %29
+V:3
+!p! G2 F2 z E |!<(! E2!<)!!>(! F4!>)! | B,3/2 C/ D2 E2 | F2 D2 z E |!<(! D4!<)! C2 | %5
+!>(! B,2!>)! B,2 z2 |!f! G2 F2 z3/2 F/ | F4 z2 |!p! E3/2 E/ D2 C2 | C2 ^C2 D2 | (C2 E2) D2 | %11
+ F4 E2 ||!p! E2 G2 ^F2 | F4 z2 | E2 G2 ^F2 | F4 z2 | z2!f! C2 F2 | E3 E !fermata!E2 | F2 z2 z2 | %19
+!p! D2 D2 D2 | D3 D _B,2 | _B,2 z2 z2 | (E4 F2) | G4 z2 |!ff! E3 E E2 | A3 A A2 | E6 |!pp! B,4 z2 | %28
+ !fermata!G,6 |] %29
+V:4
+!p! C2 C2 z C |!<(! C2!<)!!>(! B,4!>)! | G,3/2 G,/ F,2 E,2 | D,2 D2 z ^C |!<(! D4!<)! D,2 | %5
+!>(! G,2!>)! G,2 z2 |!f! C2 G,2 z3/2 G,/ | G,4 z2 |!p! C3/2 C/ B,2 _B,2 | A,2 G,2 F,2 | G,4 G,2 | %11
+ G,4 C,2 ||!p! C2 E2 D2 | G,4 z2 | C2 E2 D2 | G,4 z2 | z2!f! C2 B,2 | _B,3 B, !fermata!B,2 | %18
+ A,2 z2 z2 |!p! A,2 A,2 A,2 | _A,3 A, G,2 | G,2 z2 z2 | (G,4 F,2) | E,4 z2 |!ff! C3 C C2 | %25
+ F,3 F, F,2 | C,6 |!pp! G,4 z2 | !fermata!C,6 |] %29
+

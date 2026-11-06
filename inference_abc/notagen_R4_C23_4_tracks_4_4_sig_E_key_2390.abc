@@ -1,0 +1,40 @@
+X:1
+T:Title
+%%score 1 2 3 4
+L:1/8
+Q:1/4=100
+M:4/4
+K:E
+V:1 treble nm="treble"
+V:2 treble nm="treble"
+V:3 alto nm="bass"
+V:4 bass nm="bass"
+V:1
+ g2 z4 g2 | f2 z4 f2 | g2 z4 a2 | f2 z4 b2 | %4
+ e/4d/4e/4d/4e/4d/4e/4d/4 e/4d/4e/4d/4 e/4d/4e/4d/4 ef ga | b2 g2 e2 z2 | z4 c'4 | b2 a2 g2 b2- | %8
+ b2 a2 g4- | g2 f2 e2 g2- | g2 f2 e4- | e2 d2 c2 c'2- | c'2 b4 a2- | a2 g4 f2- | f2 e4 d2 | e4 d4 | %16
+ e2 g2 f2 c'2 | d'2 z4 c'2 | d'2 b4 ^a2 | b2 d2 e2 f2 | B2 d2 e2 z2 | g2 z4 g2 | f2 z4 f2 | %23
+ g2 z4 a2 | f2 z4 b2 | e/4d/4e/4d/4e/4d/4e/4d/4 e/4d/4e/4d/4 e/4d/4e/4d/4 ef ga | b2 g2 e2 z2 | %27
+ z4 c'4 | b2 a2 g2 f2 | f4 e2 z2 |] %30
+V:2
+ e2 z4 e2 | d2 z4 d2 | e2 z4 c2 | d2 z4 B2 | c/4B/4c/4B/4c/4B/4 c/4B/4 c/4B/4 c/4B/4c/4B/4 cd ef | %5
+ g2 e2 G2 z2 | z4 a4 | d4 e2 z2 | f6 e2 | d6 c2 | d6 c2 | ^B4 c2 b2 | a4 g4 | f4 e4 | d4 c2 F2 | %15
+ G2 B4 A2 | G2 e2 d2 ^a2 | b2 z4 e2 | d4 c4 | B2 d2 e2 f2 | B2 d2 e2 z2 | e2 z4 e2 | d2 z4 d2 | %23
+ e2 z4 c2 | d2 z4 B2 | c/4B/4c/4B/4c/4B/4c/4B/4 c/4B/4c/4B/4 c/4B/4c/4B/4 cd ef | g2 e2 G2 z2 | %27
+ z4 a4 | d4 e2 d2 | d4 e2 z2 |] %30
+V:3
+ z2 B2 E2 z2 | z2 F2 B,2 z2 | z2 B2 G2 E2 | B2 B,2 B2 z2 | z8 | z2 z4 E2 | %6
+ D/4C/4D/4C/4D/4C/4 D/4C/4D/4C/4 D/4C/4D/4C/4 DE FG | A2 F2 E2 z2 | D2 B,2 E2 z2 | ^B2 G2 c2 z2 | %10
+ ^B2 G2 c2 z2 | G2 F2 E2 ^E2 | F2 D2 E2 C2 | D2 ^B,2 C2 ^A,2 | B,2 G,2 A,2 A2 | G4 F4 | E2 z4 F2 | %17
+ B,2 D2 C2 ^A2 | B2 F2 G2 E2 | D2 D2 E2 F2 | B,2 D2 E2 z2 | z2 B2 E2 z2 | z2 F2 B,2 z2 | %23
+ z2 B2 G2 E2 | B2 B,2 B2 z2 | z8 | z2 z4 E2 | %27
+ D/4C/4D/4C/4D/4C/4D/4C/4 D/4C/4D/4C/4 D/4C/4D/4C/4 DE FG | A2 F2 E2 A2 | A4 G2 z2 |] %30
+V:4
+ z2 B,2 E,2 z2 | z2 F,2 B,,2 z2 | z2 B,2 G,2 E,2 | B,2 B,,2 B,2 z2 | z8 | z2 z4 E,2 | %6
+ B,/4A,/4B,/4A,/4B,/4A,/4B,/4A,/4 B,/4A,/4B,/4A,/4 B,/4A,/4B,/4A,/4 B,C DE | F2 B,2 E2 z2 | z8 | %9
+ z8 | z8 | z8 | z8 | z8 | z8 | z2 B,2 B,,2 B,2 | E,2 z4 F,2 | B,,2 B,2 ^A,2 F,2 | B,2 D2 E2 F2 | %19
+ B,2 D,2 E,2 F,2 | B,,2 D,2 E,2 z2 | z2 B,2 E,2 z2 | z2 F,2 B,,2 z2 | z2 B,2 G,2 E,2 | %24
+ B,2 B,,2 B,2 z2 | z8 | z2 z4 E,2 | %27
+ B,/4A,/4B,/4A,/4B,/4A,/4B,/4A,/4 B,/4A,/4B,/4A,/4 B,/4A,/4B,/4A,/4 B,C DE | F2 B,2 E2 B,2 | %29
+ E2 B,2 E,2 z2 |] %30
+

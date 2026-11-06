@@ -1,0 +1,25 @@
+X:1
+T:Title
+%%score 1 2 3 4
+L:1/8
+Q:1/4=100
+M:2/3
+K:E
+V:1 treble nm="violin 1"
+V:2 treble nm="violin 2"
+V:3 alto nm="viola"
+V:4 bass nm="cello"
+V:1
+ z/ c/ | c>d ^B>c | d2 G>g | g>f f>e | d2 d>d | d>e c>d | ^B>^A G>g | f>g e>f | d2 d>g | ^e>f g>a | %10
+ b2 a>g | a>c =d>b | g>f e>g | a>c d>b | g>f e>g | c>d d>c | c3 |] %17
+V:2
+ z/ G/ | G2 F>E | D2 D>d | e>c c>c | c2 B>B | B2 A>A | G2 D>e | d>e c>d | ^B2 B>d | c2 ^e>f | %10
+ ^e2 f>c | c2 B>=d | c>d c2 | c2 B2 | B2 G2 | G>A G>F | G3 |] %17
+V:3
+ z/ E/ | E>F D>C | ^B,2 B,>G | G2 A>A | F2 G>G | E2 E>F | D2 D>c | B2 A2 | G2 G>G | G2 G>c | %10
+ B2 c2 | A2 F2 | E>F G2 | F2 F2 | E2 E>E | E>D D>D | E3 |] %17
+V:4
+ z/ C/ | C2 G,>A, | G,2 G,,>^B, | C>A, F,2 | B,>A, G,2 | G,>E, A,2 | G,>^A, ^B,>C | D2 A,>F, | %8
+ G,2 G,>^B, | C2 B,>A, | G,2 F,>E, | F,2 B,>B,, | C,3 z/ E,/ | F,>A, B,2 | E,2 C>B, | %15
+ A,>F, G,>G,, | C,3 |] %17
+

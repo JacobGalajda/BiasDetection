@@ -1,0 +1,29 @@
+X:1
+T:Title
+%%score 1 2 3 4
+L:1/8
+Q:1/4=100
+M:2/4
+K:A
+V:1 treble nm="treble"
+V:2 treble nm="treble"
+V:3 alto nm="bass"
+V:4 bass nm="bass"
+V:1
+"^Leiselung" e3 d | e e c2 | B B G G | (A2 B) z | g3 f | e e c c | B2 A2 | B4 | A2 A2 | c2 e2 | %10
+ d3 d | d4 | e2 c2 | d2 B2 | A4 | A2 z2!fine! || G2 G2 | B2 G2 | A3 B | A2 z2 | c2 c2 | e2 c2 | %22
+ d3 c | B2 z2 | d2 d2 | f2 d2 | e2 e2 | c4 | d3 B | G3 G | B2 A2 | G4!D.C.! |] %32
+V:2
+ e3 B | c c A2 | G G E E | (F2 G) z | e3 d | c c A A | G2 A2 | B4 | A2 A2 | A2 c2 | B3 B | B4 | %12
+ c2 A2 | B2 G2 | A4 | A2 z2 || E2 E2 | G2 E2 | F3 G | A2 z2 | A2 A2 | c2 A2 | B3 A | G2 z2 | %24
+ B2 B2 | d2 B2 | c2 c2 | A4 | B3 G | E3 E | G2 A2 | E4 |] %32
+V:3
+ G,4 | C B, A,2 | E F E E | E4 | G,4 | A, G, F, E, | E2 C2 | E4 | A,2 E,2 | A,2 E2 | F2 D2 | B,4 | %12
+ A,2 C2 | D2 E2 | E4 | E2 z2 || E2 E2 | B,2 E2 | E3 D | C2 z2 | A,2 A,2 | A,2 C2 | B,3 C | D2 z2 | %24
+ B,2 B,2 | D2 D2 | A,2 A,2 | C4 | B,3 G, | E,3 E, | E,2 F,2 | G,4 |] %32
+V:4
+ E,4 | A, G, A,2 | B, B, E, E, | (A,2 E,) z | E,4 | A, B, A, A, | B,2 A,2 | E,4 | A,2 A,2 | %9
+ E,2 C,2 | D,2 F,2 | B,,4 | A,2 A,2 | E,2 E,2 | A,4 | A,2 z2 || E,2 E,2 | B,,2 E,2 | E,3 D, | %19
+ C,2 z2 | A,,2 A,,2 | A,,2 A,,2 | D,3 E, | G,2 z2 | D,2 D,2 | D,2 D,2 | E,2 E,2 | E,4 | G,3 G, | %29
+ E,3 E, | B,,2 B,,2 | E,4 |] %32
+

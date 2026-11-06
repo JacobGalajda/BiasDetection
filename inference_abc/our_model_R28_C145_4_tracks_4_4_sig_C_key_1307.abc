@@ -1,0 +1,29 @@
+X:1
+T:Title
+%%score 1 2 3 4
+L:1/8
+Q:1/4=100
+M:4/4
+K:C
+V:1 treble nm="treble"
+V:2 treble nm="treble"
+V:3 alto nm="bass"
+V:4 bass nm="bass"
+V:1
+ G2 | G3 E E2 G2 | G3 D D2 E2 | F2 G2 A2 B2 | G4 z2 G2 | G3 E E2 G2 | G3 D D2 d2 | ^c2 d2 e2 A2 | %8
+ d4 z2 G2 | e3 e d2 c2 | c3 B B2 c2 | c2 B2 A2 G2 | c4 z2 c2 | c3 A A2 c2 | c3 G G2 G2 | %15
+ A2 c2 G2 d2 | c6 |] %17
+V:2
+ C2 | C3 C C2 E2 | D3 B, B,2 B,2 | D2 E2 F2 F2 | E4 z2 F2 | E3 C C2 E2 | D3 D D2 G2 | G2 G2 A2 A2 | %8
+ B4 z2 G2 | c3 c G2 G2 | G3 G G2 G2 | G2 G2 G2 F2 | E4 z2 E2 | F3 F F2 F2 | E3 E E2 E2 | %15
+ F2 E2 D2 G2 | G6 |] %17
+V:3
+ E,2 | E,3 G, G,2 C,2 | B,,3 D, D,2 G,2 | B,2 B,2 A,2 G,2 | G,4 z2 G,2 | G,3 G, G,2 C,2 | %6
+ B,,3 B,, B,2 B,2 | B,2 B,2 A,2 A,2 | B,4 z2 G,2 | G,3 G, G,2 G,2 | B,3 G, B,2 G,2 | %11
+ G,2 G,2 B,2 B,2 | G,4 z2 E,2 | F,3 F, F,2 A,2 | G,3 G, G,2 C,2 | C,2 E,2 F,2 F,2 | E,6 |] %17
+V:4
+ C,2 | C,3 C, C,2 C,2 | G,,3 G,, G,,2 G,,2 | D,2 D,2 G,,2 G,,2 | C,4 z2 B,,2 | C,3 C, C,2 C,2 | %6
+ D,3 D, D,2 D,2 | G,2 G,2 A,2 D,2 | G,4 z2 G,2 | C,3 C, C,2 E,2 | D,3 D, D,2 E,2 | %11
+ D,2 D,2 G,,2 G,,2 | C,4 z2 C,2 | F,,3 F,, F,,2 F,,2 | G,,3 G,, G,,2 G,,2 | F,,2 F,,2 G,,2 G,,2 | %16
+ C,6 |] %17
+

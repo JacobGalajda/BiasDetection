@@ -1,0 +1,33 @@
+X:1
+T:Title
+%%score 1 2 3 4
+L:1/8
+Q:1/4=100
+M:4/4
+K:A
+V:1 treble nm="violin 1"
+V:2 treble nm="violin 2"
+V:3 alto nm="viola"
+V:4 bass nm="cello"
+V:1
+ z8[Q:1/4=50] |!pp!"^suuingu" e8 | f8 | f8 |!<(! e6 E2!<)! |!f! e4- edce | d4 B2 A2 | G4- GABE | %8
+ A8 |!p! c8 | B8 | d8 | d8 | e8 | d8 |!<(! f8!<)! |!mf! g4!>(! e2 E2!>)! |!pp! E8 | F8 | F8 | %20
+!<(! E8!<)! |!mf! e4- edce | d4 B2 A2 | G4- GABE |!>(! A8!>)! |!p! c8 | B8 | d8 |!<(! d8!<)! | %29
+!mf! e8 | d8 | f8 |!<(! g4 a2 b2!<)! |!f!"_dim." a8 | a8 | a8 |] %36
+V:2
+ z8 |!pp! c8 | d8 | d8 |!<(! d4 G4!<)! |!mf! E4- EFEC | D2 C2 B,2 A,2 | B,4- B,CDB, | C8 |!p! A8 | %10
+ =G8 | A8 | B8 | c8 | B8 |!<(! c8!<)! |!mf! d4!>(! B2 B,2!>)! |!pp! C8 | D8 | D8 |!<(! D4 G4!<)! | %21
+!mf! E4- EFEC | D2 C2 B,2 A,2 | B,4- B,CDB, |!>(! C8!>)! |!p! A8 | =G8 | A8 |!<(! B8!<)! |!mf! c8 | %30
+ B8 | c8 |!<(! d4 e4!<)! |!f!"_dim." e8 | =f8 | e8 |] %36
+V:3
+ z8 |!pp! A,8 | B,8 | B,8 |!<(! B,8!<)! |!mf! A,8 | F,8 | E,8 | E,8 |!p! F,8 | E,8 | F,8 | G,8 | %13
+ A,8 | G,8 |!<(! F,8!<)! |!mf! G,4!>(! G,2 G,2!>)! |!pp! A,8 | B,8 | B,8 |!<(! B,8!<)! |!mf! A,8 | %22
+ F,8 | E,8 |!>(! E,8!>)! |!p! F,8 | E,8 | F,8 |!<(! G,8!<)! |!mf! A,8 | G,8 | F,8 |!<(! G,8!<)! | %33
+!f!"_dim." C8 | D8 | C8 |] %36
+V:4
+ z4 z2!f! E,,2 | C,4- C,B,,D,C, | F,,6 F,,2 | D,4- D,C,E,D, |!<(! G,,8!<)! |!f! C,8 | A,,8 | E,,8 | %8
+ A,,6!mf! E,2 | C4- CE,DC | C6 E,2 | D4- DDCD | B,6 E,2 | E4- ECFE | D6 D2 |!<(! C4- CDEC!<)! | %16
+!f! B,4 B,,2!>(! E,2!>)! |!p! C4- CB,DC | F,6 F,2 | D4- DCED |!<(! G,8!<)! |!mf! C,8 | A,,8 | %23
+ E,,8 |!>(! A,,6 E,2!>)! |!p! C4- CE,DC | C6 E,2 | D4- DDCD |!<(! B,6 E,2!<)! |!f! E4- ECFE | %30
+ D6 D2 | C4- CDEC |!<(! B,8!<)! |!f!"_dim." A,,8 | D,8 | A,,8 |] %36
+
